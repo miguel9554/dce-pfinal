@@ -1,2 +1,7 @@
-# dce-pfinal
-repositorio del proyecto final de la materia diseño de circuitos elecrónicos (fiuba)
+# repositorio del proyecto final de dce - 1c2019
+
+integrantes:
+
+- Juan Ciafardini, 97921
+- Miguel Perez Andrade, 98599
+- Luis Tomás Quiroga, 96337
