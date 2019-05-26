@@ -1,0 +1,8 @@
+Snr > 30 db
+Pot 40 W @ 8ohm & 25 V
+B 80 kHz
+THD 0,1% @ 10 kHz & 40 W
+THD 0,01% @ 1 kHz & 40 W
+
+Transistor de bajo ruido 556                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+queremos que con un 1v rms a la entrada tengamos 25v a la salidas

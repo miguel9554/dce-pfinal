@@ -1,0 +1,8 @@
+- 24/05: especifiaciónes y circuito
+- 31/05: simulaciones y esquematico. simular en base a lo que se consigue en le mercado local. ir viendo que componentes/tecnologias usar
+- 07/06: simulacion/armado. se puede empezar por el diferencial
+- 14/06: simulacion/armado y diseño de pcb
+- 21/06: armado sobre pcb
+- 28/06: ya debería estar la parte de baja potencia sobre el pcb funcionando
+
+- ir simulando y armando de a partes
