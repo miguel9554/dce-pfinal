@@ -1,0 +1,18 @@
+* C:\Users\Miguel\Dropbox\FIUBA\dce\tfinal\dce_tfinal\emisor_comun\emisor_comun.asc
+V1 V+ 0 25
+V2 V- 0 -25
+V3 vin 0 SINE(0 10m 10k)
+Q6 N001 vin N002 0 BC548B
+R5 N002 V- 1k
+R10 V+ N001 6.8k
+R12 V+ vin 3.9k
+R13 vin V- 1k
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Miguel\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.INCLUDE ../BC548B.lib
+.INCLUDE ../D1N4148.lib
+.INCLUDE ../BC558B.lib
+.tran 0 101m 100m 1u
+.backanno
+.end
