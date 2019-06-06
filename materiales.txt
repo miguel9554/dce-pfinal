@@ -1,0 +1,15 @@
+bc557b x 10
+bc547b x 10
+R 68 *
+R 100 *
+R 390 + R 10
+R 2.2k *
+R 8.2k + R 1.5k
+R 10k *
+C 47u *
+para compensacion
+	C 100p
+	C 1n
+	C 10n
+	C 100n
+	C 1u
