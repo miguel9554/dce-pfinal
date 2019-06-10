@@ -1,0 +1,40 @@
+* C:\Users\Miguel\Dropbox\FIUBA\dce\dce-pfinal\simulaciones\salida\salida.asc
+Q1 V2+ N005 N006 0 BC547B
+Q2 N004 N006 Vo 0 BC547B
+Q3 V2+ N003 N004 0 BC547B
+Q4 V2+ N002 N003 0 BC547B
+Q5 N011 N009 Vo 0 BC557B
+Q6 V2- N010 N009 0 BC557B
+Q7 V2- N012 N011 0 BC557B
+Q8 V2- N014 N012 0 BC557B
+R3 N006 N009 200
+R4 Vo 0 8
+R5 N011 N012 100
+R6 N003 N004 100
+D1 V1+ N004 1N4148
+D2 N011 V1- 1N4148
+D3 N014 N013 1N4148
+D4 N001 N002 1N4148
+V1 N010 N013 3.6
+V2 Vi N010 1.45
+V3 N005 Vi 1.45
+V4 N001 N005 3.6
+V5 Vi 0 SINE(0 {Vin} {fin})
+V6 V1+ 0 {V1}
+V7 0 V1- {V1}
+V8 V2+ 0 {V2}
+V9 0 V2- {V2}
+.model D D
+.lib C:\Users\Miguel\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Miguel\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.param V1=20 V2=30
+.param Vin=24 fin=10k
+.tran 0 {(N_cycles_wait+N_cycles_show)/fin} {N_cycles_wait/fin} {1/(fin*10e3)}
+.param N_cycles_show=10 N_cycles_wait=10
+;op 0 {(N_cycles_wait+N_cycles_show)/fin} {N_cycles_wait/fin} {1/(fin*10e3)}
+.four {fin} 9 {N_cycles_show} V(Vo)
+.OPTIONS plotwinsize=0 numdgt=15
+.backanno
+.end
