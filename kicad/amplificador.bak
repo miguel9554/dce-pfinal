@@ -547,10 +547,10 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 5150 1850 50  0001 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:BC547 Q?
+L Transistor_BJT:BC547 Q10
 U 1 1 5D083C30
 P 6350 3750
-F 0 "Q?" H 6541 3796 50  0000 L CNN
+F 0 "Q10" H 6541 3796 50  0000 L CNN
 F 1 "BC547" H 6541 3705 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6550 3675 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6350 3750 50  0001 L CNN
@@ -558,10 +558,10 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6350 3750 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R18
 U 1 1 5D08483A
 P 6450 3150
-F 0 "R?" H 6520 3196 50  0000 L CNN
+F 0 "R18" H 6520 3196 50  0000 L CNN
 F 1 "16" H 6520 3105 50  0000 L CNN
 F 2 "" V 6380 3150 50  0001 C CNN
 F 3 "~" H 6450 3150 50  0001 C CNN
@@ -569,10 +569,10 @@ F 3 "~" H 6450 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R16
 U 1 1 5D084C19
 P 5800 3150
-F 0 "R?" H 5870 3196 50  0000 L CNN
+F 0 "R16" H 5870 3196 50  0000 L CNN
 F 1 "3.3k" H 5870 3105 50  0000 L CNN
 F 2 "" V 5730 3150 50  0001 C CNN
 F 3 "~" H 5800 3150 50  0001 C CNN
@@ -580,10 +580,10 @@ F 3 "~" H 5800 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R17
 U 1 1 5D084E8F
 P 5800 4100
-F 0 "R?" H 5870 4146 50  0000 L CNN
+F 0 "R17" H 5870 4146 50  0000 L CNN
 F 1 "1.6k" H 5870 4055 50  0000 L CNN
 F 2 "" V 5730 4100 50  0001 C CNN
 F 3 "~" H 5800 4100 50  0001 C CNN
@@ -598,10 +598,10 @@ Connection ~ 6450 2900
 Wire Wire Line
 	6150 3750 5800 3750
 $Comp
-L Device:R R?
+L Device:R R20
 U 1 1 5D096EE5
 P 7350 4700
-F 0 "R?" V 7143 4700 50  0000 C CNN
+F 0 "R20" V 7143 4700 50  0000 C CNN
 F 1 "100" V 7234 4700 50  0000 C CNN
 F 2 "" V 7280 4700 50  0001 C CNN
 F 3 "~" H 7350 4700 50  0001 C CNN
@@ -609,10 +609,10 @@ F 3 "~" H 7350 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R19
 U 1 1 5D097783
 P 7350 3300
-F 0 "R?" V 7143 3300 50  0000 C CNN
+F 0 "R19" V 7143 3300 50  0000 C CNN
 F 1 "100" V 7234 3300 50  0000 C CNN
 F 2 "" V 7280 3300 50  0001 C CNN
 F 3 "~" H 7350 3300 50  0001 C CNN
@@ -620,10 +620,10 @@ F 3 "~" H 7350 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5D097C2C
 P 6950 3700
-F 0 "C?" V 6698 3700 50  0000 C CNN
+F 0 "C6" V 6698 3700 50  0000 C CNN
 F 1 "C" V 6789 3700 50  0000 C CNN
 F 2 "" H 6988 3550 50  0001 C CNN
 F 3 "~" H 6950 3700 50  0001 C CNN
@@ -636,10 +636,10 @@ Wire Wire Line
 Wire Wire Line
 	7200 3300 6950 3300
 $Comp
-L Transistor_BJT:BC547 Q?
+L Transistor_BJT:BC547 Q11
 U 1 1 5D0A06ED
 P 7850 2000
-F 0 "Q?" H 8041 2046 50  0000 L CNN
+F 0 "Q11" H 8041 2046 50  0000 L CNN
 F 1 "BC547" H 8041 1955 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8050 1925 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 7850 2000 50  0001 L CNN
@@ -647,10 +647,10 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 7850 2000 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC547 Q?
+L Transistor_BJT:BC547 Q13
 U 1 1 5D0A1625
 P 8350 3300
-F 0 "Q?" H 8541 3346 50  0000 L CNN
+F 0 "Q13" H 8541 3346 50  0000 L CNN
 F 1 "BC547" H 8541 3255 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8550 3225 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 8350 3300 50  0001 L CNN
@@ -658,10 +658,10 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 8350 3300 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC557 Q?
+L Transistor_BJT:BC557 Q14
 U 1 1 5D0A1EFF
 P 8350 4700
-F 0 "Q?" H 8541 4654 50  0000 L CNN
+F 0 "Q14" H 8541 4654 50  0000 L CNN
 F 1 "BC557" H 8541 4745 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8550 4625 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 8350 4700 50  0001 L CNN
@@ -669,10 +669,10 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 8350 4700 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:BC557 Q?
+L Transistor_BJT:BC557 Q12
 U 1 1 5D0A2B75
 P 7850 5750
-F 0 "Q?" H 8041 5704 50  0000 L CNN
+F 0 "Q12" H 8041 5704 50  0000 L CNN
 F 1 "BC557" H 8041 5795 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8050 5675 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 7850 5750 50  0001 L CNN
@@ -680,10 +680,10 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 7850 5750 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R23
 U 1 1 5D0A6755
 P 8450 4050
-F 0 "R?" H 8520 4096 50  0000 L CNN
+F 0 "R23" H 8520 4096 50  0000 L CNN
 F 1 "200" H 8520 4005 50  0000 L CNN
 F 2 "" V 8380 4050 50  0001 C CNN
 F 3 "~" H 8450 4050 50  0001 C CNN
@@ -693,10 +693,10 @@ $EndComp
 Wire Wire Line
 	8150 3300 7500 3300
 $Comp
-L Device:R R?
+L Device:R R22
 U 1 1 5D0AFD5D
 P 7950 5300
-F 0 "R?" H 8020 5346 50  0000 L CNN
+F 0 "R22" H 8020 5346 50  0000 L CNN
 F 1 "100" H 8020 5255 50  0000 L CNN
 F 2 "" V 7880 5300 50  0001 C CNN
 F 3 "~" H 7950 5300 50  0001 C CNN
@@ -704,10 +704,10 @@ F 3 "~" H 7950 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R21
 U 1 1 5D0B0349
 P 7950 2500
-F 0 "R?" H 8020 2546 50  0000 L CNN
+F 0 "R21" H 8020 2546 50  0000 L CNN
 F 1 "100" H 8020 2455 50  0000 L CNN
 F 2 "" V 7880 2500 50  0001 C CNN
 F 3 "~" H 7950 2500 50  0001 C CNN
@@ -715,10 +715,10 @@ F 3 "~" H 7950 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:TIP41C Q?
+L Transistor_BJT:TIP41C Q15
 U 1 1 5D0B07F0
 P 9150 2300
-F 0 "Q?" H 9341 2346 50  0000 L CNN
+F 0 "Q15" H 9341 2346 50  0000 L CNN
 F 1 "TIP41C" H 9341 2255 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9400 2225 50  0001 L CIN
 F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF" H 9150 2300 50  0001 L CNN
@@ -726,10 +726,10 @@ F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:TIP41C Q?
+L Transistor_BJT:TIP41C Q16
 U 1 1 5D0B1922
 P 9150 3500
-F 0 "Q?" H 9341 3546 50  0000 L CNN
+F 0 "Q16" H 9341 3546 50  0000 L CNN
 F 1 "TIP41C" H 9341 3455 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9400 3425 50  0001 L CIN
 F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF" H 9150 3500 50  0001 L CNN
@@ -737,10 +737,10 @@ F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:TIP42C Q?
+L Transistor_BJT:TIP42C Q17
 U 1 1 5D0B2852
 P 9150 4500
-F 0 "Q?" H 9341 4546 50  0000 L CNN
+F 0 "Q17" H 9341 4546 50  0000 L CNN
 F 1 "TIP42C" H 9341 4455 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9400 4425 50  0001 L CIN
 F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF" H 9150 4500 50  0001 L CNN
@@ -748,10 +748,10 @@ F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:TIP42C Q?
+L Transistor_BJT:TIP42C Q18
 U 1 1 5D0B41C9
 P 9150 5500
-F 0 "Q?" H 9341 5546 50  0000 L CNN
+F 0 "Q18" H 9341 5546 50  0000 L CNN
 F 1 "TIP42C" H 9341 5455 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9400 5425 50  0001 L CIN
 F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF" H 9150 5500 50  0001 L CNN
@@ -824,10 +824,10 @@ Wire Wire Line
 Wire Wire Line
 	7200 4700 6450 4700
 $Comp
-L Device:R R?
+L Device:R R25
 U 1 1 5D1167CD
 P 9250 4150
-F 0 "R?" H 9320 4196 50  0000 L CNN
+F 0 "R25" H 9320 4196 50  0000 L CNN
 F 1 "0.4" H 9320 4105 50  0000 L CNN
 F 2 "" V 9180 4150 50  0001 C CNN
 F 3 "~" H 9250 4150 50  0001 C CNN
@@ -835,10 +835,10 @@ F 3 "~" H 9250 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R24
 U 1 1 5D116C65
 P 9250 3850
-F 0 "R?" H 9320 3896 50  0000 L CNN
+F 0 "R24" H 9320 3896 50  0000 L CNN
 F 1 "0.4" H 9320 3805 50  0000 L CNN
 F 2 "" V 9180 3850 50  0001 C CNN
 F 3 "~" H 9250 3850 50  0001 C CNN
@@ -932,19 +932,14 @@ Wire Wire Line
 Wire Wire Line
 	5950 5400 6450 5400
 Wire Wire Line
-	9250 4000 5200 4000
-Wire Wire Line
-	5200 4000 5200 3850
-Connection ~ 9250 4000
-Wire Wire Line
 	7500 4700 8150 4700
 Wire Wire Line
 	7950 5050 7950 5150
 $Comp
-L Diode:1N4148 D?
+L Diode:1N4148 D3
 U 1 1 5D188B2F
 P 7200 2000
-F 0 "D?" H 7200 2216 50  0000 C CNN
+F 0 "D3" H 7200 2216 50  0000 C CNN
 F 1 "1N4148" H 7200 2125 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 1825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7200 2000 50  0001 C CNN
@@ -952,10 +947,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7200 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D?
+L Diode:1N4148 D1
 U 1 1 5D189CC4
 P 6450 2600
-F 0 "D?" V 6496 2521 50  0000 R CNN
+F 0 "D1" V 6496 2521 50  0000 R CNN
 F 1 "1N4148" V 6405 2521 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 2425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6450 2600 50  0001 C CNN
@@ -963,10 +958,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6450 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D?
+L Diode:1N4148 D4
 U 1 1 5D18A7C0
 P 7400 5400
-F 0 "D?" H 7400 5616 50  0000 C CNN
+F 0 "D4" H 7400 5616 50  0000 C CNN
 F 1 "1N4148" H 7400 5525 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7400 5225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7400 5400 50  0001 C CNN
@@ -974,10 +969,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7400 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D?
+L Diode:1N4148 D2
 U 1 1 5D18BC11
 P 6450 5100
-F 0 "D?" V 6496 5021 50  0000 R CNN
+F 0 "D2" V 6496 5021 50  0000 R CNN
 F 1 "1N4148" V 6405 5021 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 4925 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6450 5100 50  0001 C CNN
@@ -993,10 +988,10 @@ Wire Wire Line
 Wire Wire Line
 	6450 2000 7050 2000
 $Comp
-L Diode:1N4148 D?
+L Diode:1N4148 D6
 U 1 1 5D1A0DA8
 P 9750 2750
-F 0 "D?" H 9750 2966 50  0000 C CNN
+F 0 "D6" H 9750 2966 50  0000 C CNN
 F 1 "1N4148" H 9750 2875 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9750 2575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9750 2750 50  0001 C CNN
@@ -1004,14 +999,23 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9750 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D?
+L Diode:1N4148 D5
 U 1 1 5D1A1D4B
 P 9700 4800
-F 0 "D?" H 9700 4584 50  0000 C CNN
+F 0 "D5" H 9700 4584 50  0000 C CNN
 F 1 "1N4148" H 9700 4675 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 4625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9700 4800 50  0001 C CNN
 	1    9700 4800
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5200 3850 5400 3850
+Wire Wire Line
+	9250 4000 10000 4000
+Connection ~ 9250 4000
+Text Label 10000 4000 0    50   ~ 0
+Vout
+Text Label 5400 3850 0    50   ~ 0
+Vout
 $EndSCHEMATC

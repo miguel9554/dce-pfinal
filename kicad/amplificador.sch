@@ -932,11 +932,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 5400 6450 5400
 Wire Wire Line
-	9250 4000 5200 4000
-Wire Wire Line
-	5200 4000 5200 3850
-Connection ~ 9250 4000
-Wire Wire Line
 	7500 4700 8150 4700
 Wire Wire Line
 	7950 5050 7950 5150
@@ -1014,4 +1009,9 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9700 
 	1    9700 4800
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5200 4000 5200 3850
+Connection ~ 9250 4000
+Wire Wire Line
+	9250 4000 5200 4000
 $EndSCHEMATC
