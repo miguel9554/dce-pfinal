@@ -13,3 +13,35 @@ para compensacion
 	C 10n
 	C 100n
 	C 1u
+
+
+20/06
+
+resistencias de emisor de fte corriente, 100
+resistencias de realimentacion METALFILM, 680 y 27, y 2.2k y 82 (p/usar la de 2.2k del douglas self, da un poco mas de ganancia, 27,8 a la salida)
+470 y 12k, xq el sumador+vas no funciona con las otras... WTF
+resistencia de 10 para reemplazar la quemada del vas, de 47 y 68 para las ftes de corriente
+de 100k para la carga del vas para medir
+
+carbon
+	R 100 x 5
+	R 47 x 5
+	R 68 x 5
+	R 100k x 5
+metalfilm
+	R 680 x 5
+	R 27 x 5
+	R 2.2k x 5
+	R 82 x 5
+	R 470 x 5
+	R 12k x5
+jumper x 10
+cable unipolar, 0,5 mts rojo, negro y marron
+bornera x 3 para placa experimental
+
+transistores de potencia
+
+en la pagina de microelectronica aparecen
+2SC5200 codigo nuevo, 2SC3281 codigo viejo que aparece en el douglas self (npn de salida)
+2SA1943 codigo nuevo, 2SA1302 codigo viejo que aparece en el douglas self (pnp de salida)
+mje340, mje350, los drivers
