@@ -1,1 +1,0 @@
-Con R del multiplicador de Vbe = 68 ohm se minimiza la distorsión

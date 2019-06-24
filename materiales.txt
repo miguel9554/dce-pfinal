@@ -45,3 +45,27 @@ en la pagina de microelectronica aparecen
 2SC5200 codigo nuevo, 2SC3281 codigo viejo que aparece en el douglas self (npn de salida)
 2SA1943 codigo nuevo, 2SA1302 codigo viejo que aparece en el douglas self (pnp de salida)
 mje340, mje350, los drivers
+
+
+24/06
+
+cantidades minimas
+
+MPSA06 x 4
+MPSA56 x 5
+R carbon
+	10 x 1
+	47 x 1
+	68 x 3
+	100 x 2
+	2.2k x 3
+	10k x 2
+	100k x 1
+R metalfilm
+	12k x 2
+	470 x 1
+C 100p x 1
+C 47u x 2
+C 1000u x 1
+tira de pines para jumpers
+bornera
