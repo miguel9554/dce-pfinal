@@ -1,0 +1,3 @@
+valores usados en placa con sumador+vas: 12k + 470
+dan ok para el circuito total
+probamos con 33k + 1.2k para tener mejor rta en bajas frecuencias
