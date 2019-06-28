@@ -218,7 +218,7 @@ U 1 1 5D022D76
 P 1200 3850
 F 0 "C1" V 948 3850 50  0000 C CNN
 F 1 "10u" V 1039 3850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1238 3700 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 1238 3700 50  0001 C CNN
 F 3 "~" H 1200 3850 50  0001 C CNN
 	1    1200 3850
 	0    1    1    0   
@@ -767,10 +767,10 @@ V-
 Text GLabel 9250 4000 2    50   Input ~ 0
 Vout
 $Comp
-L Transistor_BJT:MPSA42 Q10
+L Transistor_BJT:MPSA42 Q?
 U 1 1 5D15142C
 P 6350 5750
-F 0 "Q10" H 6541 5796 50  0000 L CNN
+F 0 "Q?" H 6541 5796 50  0000 L CNN
 F 1 "MPSA42" H 6541 5705 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6550 5675 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 6350 5750 50  0001 L CNN
@@ -778,10 +778,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 6350 5750 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MPSA42 Q7
+L Transistor_BJT:MPSA42 Q?
 U 1 1 5D1530BD
 P 5250 5250
-F 0 "Q7" H 5441 5296 50  0000 L CNN
+F 0 "Q?" H 5441 5296 50  0000 L CNN
 F 1 "MPSA42" H 5441 5205 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5450 5175 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 5250 5250 50  0001 L CNN
@@ -789,10 +789,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 5250 5250 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MPSA42 Q4
+L Transistor_BJT:MPSA42 Q?
 U 1 1 5D153D39
 P 3350 5350
-F 0 "Q4" H 3541 5396 50  0000 L CNN
+F 0 "Q?" H 3541 5396 50  0000 L CNN
 F 1 "MPSA42" H 3541 5305 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3550 5275 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 3350 5350 50  0001 L CNN
@@ -800,10 +800,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 3350 5350 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MPSA42 Q2
+L Transistor_BJT:MPSA42 Q?
 U 1 1 5D154588
 P 2300 5350
-F 0 "Q2" H 2491 5396 50  0000 L CNN
+F 0 "Q?" H 2491 5396 50  0000 L CNN
 F 1 "MPSA42" H 2491 5305 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2500 5275 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 2300 5350 50  0001 L CNN
@@ -811,10 +811,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 2300 5350 50  000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MPSA42 Q9
+L Transistor_BJT:MPSA42 Q?
 U 1 1 5D155344
 P 6350 3750
-F 0 "Q9" H 6541 3796 50  0000 L CNN
+F 0 "Q?" H 6541 3796 50  0000 L CNN
 F 1 "MPSA42" H 6541 3705 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6550 3675 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 6350 3750 50  0001 L CNN
@@ -822,10 +822,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 6350 3750 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 Q3
+L Transistor_BJT:MPSA92 Q?
 U 1 1 5D155FC6
 P 2900 2250
-F 0 "Q3" H 3091 2204 50  0000 L CNN
+F 0 "Q?" H 3091 2204 50  0000 L CNN
 F 1 "MPSA92" H 3091 2295 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3100 2175 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 2900 2250 50  0001 L CNN
@@ -833,10 +833,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 2900 2250 50  000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 Q6
+L Transistor_BJT:MPSA92 Q?
 U 1 1 5D156B4C
 P 5150 1850
-F 0 "Q6" H 5341 1804 50  0000 L CNN
+F 0 "Q?" H 5341 1804 50  0000 L CNN
 F 1 "MPSA92" H 5341 1895 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5350 1775 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 5150 1850 50  0001 L CNN
@@ -844,10 +844,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 5150 1850 50  000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 Q8
+L Transistor_BJT:MPSA92 Q?
 U 1 1 5D15744D
 P 6350 2250
-F 0 "Q8" H 6541 2204 50  0000 L CNN
+F 0 "Q?" H 6541 2204 50  0000 L CNN
 F 1 "MPSA92" H 6541 2295 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6550 2175 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 6350 2250 50  0001 L CNN
@@ -855,10 +855,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 6350 2250 50  000
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 Q1
+L Transistor_BJT:MPSA92 Q?
 U 1 1 5D157DA9
 P 2100 3850
-F 0 "Q1" H 2291 3804 50  0000 L CNN
+F 0 "Q?" H 2291 3804 50  0000 L CNN
 F 1 "MPSA92" H 2291 3895 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2300 3775 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 2100 3850 50  0001 L CNN
@@ -866,10 +866,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 2100 3850 50  000
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 Q5
+L Transistor_BJT:MPSA92 Q?
 U 1 1 5D1588D2
 P 3550 3850
-F 0 "Q5" H 3741 3804 50  0000 L CNN
+F 0 "Q?" H 3741 3804 50  0000 L CNN
 F 1 "MPSA92" H 3741 3895 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3750 3775 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 3550 3850 50  0001 L CNN
@@ -886,10 +886,10 @@ Connection ~ 6450 4050
 Wire Wire Line
 	6950 4050 6450 4050
 $Comp
-L Transistor_BJT:BD135 Q11
+L Transistor_BJT:BD135 Q?
 U 1 1 5D15F31D
 P 7850 2000
-F 0 "Q11" H 8042 2046 50  0000 L CNN
+F 0 "Q?" H 8042 2046 50  0000 L CNN
 F 1 "BD135" H 8042 1955 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 8050 1925 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 7850 2000 50  0001 L CNN
@@ -897,10 +897,10 @@ F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DAT
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BD135 Q13
+L Transistor_BJT:BD135 Q?
 U 1 1 5D1604AE
 P 8350 3300
-F 0 "Q13" H 8542 3346 50  0000 L CNN
+F 0 "Q?" H 8542 3346 50  0000 L CNN
 F 1 "BD135" H 8542 3255 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 8550 3225 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 8350 3300 50  0001 L CNN
@@ -914,10 +914,10 @@ Wire Wire Line
 Wire Wire Line
 	8150 3300 7500 3300
 $Comp
-L Transistor_BJT:BD136 Q14
+L Transistor_BJT:BD136 Q?
 U 1 1 5D167A82
 P 8350 4700
-F 0 "Q14" H 8542 4654 50  0000 L CNN
+F 0 "Q?" H 8542 4654 50  0000 L CNN
 F 1 "BD136" H 8542 4745 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 8550 4625 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 8350 4700 50  0001 L CNN
@@ -926,10 +926,10 @@ F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DAT
 $EndComp
 Connection ~ 8450 4500
 $Comp
-L Transistor_BJT:BD136 Q12
+L Transistor_BJT:BD136 Q?
 U 1 1 5D16887F
 P 7850 5750
-F 0 "Q12" H 8042 5704 50  0000 L CNN
+F 0 "Q?" H 8042 5704 50  0000 L CNN
 F 1 "BD136" H 8042 5795 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 8050 5675 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 7850 5750 50  0001 L CNN
@@ -937,10 +937,10 @@ F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DAT
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2SB817 Q17
+L Transistor_BJT:2SB817 Q?
 U 1 1 5D16AB99
 P 9150 4500
-F 0 "Q17" H 9340 4454 50  0000 L CNN
+F 0 "Q?" H 9340 4454 50  0000 L CNN
 F 1 "2SB817" H 9340 4545 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-3PB-3_Vertical" H 9350 4425 50  0001 L CIN
 F 3 "http://skory.gylcomp.hu/alkatresz/2SB817.pdf" H 9150 4500 50  0001 L CNN
@@ -948,10 +948,10 @@ F 3 "http://skory.gylcomp.hu/alkatresz/2SB817.pdf" H 9150 4500 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2SB817 Q18
+L Transistor_BJT:2SB817 Q?
 U 1 1 5D16B14D
 P 9150 5500
-F 0 "Q18" H 9340 5454 50  0000 L CNN
+F 0 "Q?" H 9340 5454 50  0000 L CNN
 F 1 "2SB817" H 9340 5545 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-3PB-3_Vertical" H 9350 5425 50  0001 L CIN
 F 3 "http://skory.gylcomp.hu/alkatresz/2SB817.pdf" H 9150 5500 50  0001 L CNN
@@ -959,10 +959,10 @@ F 3 "http://skory.gylcomp.hu/alkatresz/2SB817.pdf" H 9150 5500 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2SD1047 Q16
+L Transistor_BJT:2SD1047 Q?
 U 1 1 5D16B845
 P 9150 3500
-F 0 "Q16" H 9340 3546 50  0000 L CNN
+F 0 "Q?" H 9340 3546 50  0000 L CNN
 F 1 "2SD1047" H 9340 3455 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-3PB-3_Vertical" H 9400 3425 50  0001 L CIN
 F 3 "http://www.st.com/resource/en/datasheet/2sd1047.pdf" H 9150 3500 50  0001 L CNN
@@ -970,10 +970,10 @@ F 3 "http://www.st.com/resource/en/datasheet/2sd1047.pdf" H 9150 3500 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2SD1047 Q15
+L Transistor_BJT:2SD1047 Q?
 U 1 1 5D16C7F6
 P 9150 2300
-F 0 "Q15" H 9340 2346 50  0000 L CNN
+F 0 "Q?" H 9340 2346 50  0000 L CNN
 F 1 "2SD1047" H 9340 2255 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-3PB-3_Vertical" H 9400 2225 50  0001 L CIN
 F 3 "http://www.st.com/resource/en/datasheet/2sd1047.pdf" H 9150 2300 50  0001 L CNN
@@ -981,10 +981,10 @@ F 3 "http://www.st.com/resource/en/datasheet/2sd1047.pdf" H 9150 2300 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N5822 D6
+L Diode:1N5822 D?
 U 1 1 5D16D19A
 P 9750 2750
-F 0 "D6" H 9750 2966 50  0000 C CNN
+F 0 "D?" H 9750 2966 50  0000 C CNN
 F 1 "1N5822" H 9750 2875 50  0000 C CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 9750 2575 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 9750 2750 50  0001 C CNN
@@ -992,10 +992,10 @@ F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 9750 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N5822 D5
+L Diode:1N5822 D?
 U 1 1 5D16E16B
 P 9700 4800
-F 0 "D5" H 9700 4584 50  0000 C CNN
+F 0 "D?" H 9700 4584 50  0000 C CNN
 F 1 "1N5822" H 9700 4675 50  0000 C CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 9700 4625 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 9700 4800 50  0001 C CNN
@@ -1014,10 +1014,10 @@ F 3 "" H 4350 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:-VDC #PWR0101
+L power:-VDC #PWR?
 U 1 1 5D16F67F
 P 4200 4600
-F 0 "#PWR0101" H 4200 4500 50  0001 C CNN
+F 0 "#PWR?" H 4200 4500 50  0001 C CNN
 F 1 "-VDC" H 4200 4875 50  0000 C CNN
 F 2 "" H 4200 4600 50  0001 C CNN
 F 3 "" H 4200 4600 50  0001 C CNN
@@ -1025,10 +1025,10 @@ F 3 "" H 4200 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+24V #PWR0102
+L power:+24V #PWR?
 U 1 1 5D170FA2
 P 9900 2750
-F 0 "#PWR0102" H 9900 2600 50  0001 C CNN
+F 0 "#PWR?" H 9900 2600 50  0001 C CNN
 F 1 "+24V" V 9915 2878 50  0000 L CNN
 F 2 "" H 9900 2750 50  0001 C CNN
 F 3 "" H 9900 2750 50  0001 C CNN
@@ -1036,10 +1036,10 @@ F 3 "" H 9900 2750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:-24V #PWR0103
+L power:-24V #PWR?
 U 1 1 5D1728CA
 P 9850 4800
-F 0 "#PWR0103" H 9850 4900 50  0001 C CNN
+F 0 "#PWR?" H 9850 4900 50  0001 C CNN
 F 1 "-24V" V 9865 4928 50  0000 L CNN
 F 2 "" H 9850 4800 50  0001 C CNN
 F 3 "" H 9850 4800 50  0001 C CNN
