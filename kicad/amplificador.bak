@@ -218,7 +218,7 @@ U 1 1 5D022D76
 P 1200 3850
 F 0 "C1" V 948 3850 50  0000 C CNN
 F 1 "10u" V 1039 3850 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 1238 3700 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D16.0mm_W5.0mm_P7.50mm" H 1238 3700 50  0001 C CNN
 F 3 "~" H 1200 3850 50  0001 C CNN
 	1    1200 3850
 	0    1    1    0   
@@ -253,15 +253,15 @@ Wire Wire Line
 	1600 3850 1900 3850
 Connection ~ 1600 3850
 Wire Wire Line
-	2200 3400 2200 3650
+	2200 3400 2200 3600
 Wire Wire Line
 	2200 3400 2350 3400
 Wire Wire Line
 	3250 3400 3450 3400
 Wire Wire Line
-	3450 3400 3450 3650
+	3450 3400 3450 3600
 Wire Wire Line
-	2800 2050 2800 1850
+	2800 2050 2800 2000
 Wire Wire Line
 	2800 1250 3400 1250
 Wire Wire Line
@@ -372,7 +372,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 1850 6450 1850
 Wire Wire Line
-	6450 1650 6450 1850
+	6450 1650 6450 1750
 Connection ~ 6450 1850
 Wire Wire Line
 	6450 1850 6450 2000
@@ -383,33 +383,11 @@ Wire Wire Line
 Wire Wire Line
 	6450 6350 6450 7050
 Wire Wire Line
-	3450 5550 3450 6050
+	3450 5550 3450 5900
 Wire Wire Line
 	5350 5450 5350 5750
 Wire Wire Line
-	2200 5550 2200 6050
-$Comp
-L power:+VDC #PWR05
-U 1 1 5D040149
-P 5050 1000
-F 0 "#PWR05" H 5050 900 50  0001 C CNN
-F 1 "+VDC" H 5050 1275 50  0000 C CNN
-F 2 "" H 5050 1000 50  0001 C CNN
-F 3 "" H 5050 1000 50  0001 C CNN
-	1    5050 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-VDC #PWR04
-U 1 1 5D040886
-P 4600 7400
-F 0 "#PWR04" H 4600 7300 50  0001 C CNN
-F 1 "-VDC" H 4600 7675 50  0000 C CNN
-F 2 "" H 4600 7400 50  0001 C CNN
-F 3 "" H 4600 7400 50  0001 C CNN
-	1    4600 7400
-	-1   0    0    1   
-$EndComp
+	2200 5550 2200 5900
 Wire Wire Line
 	4600 7400 4600 7050
 Wire Wire Line
@@ -420,7 +398,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 1000 5050 1250
 Wire Wire Line
-	3400 1250 5050 1250
+	3400 1250 4350 1250
 Wire Wire Line
 	4600 2750 4350 2750
 Wire Wire Line
@@ -619,15 +597,13 @@ $EndComp
 Wire Wire Line
 	8450 3500 8950 3500
 Wire Wire Line
-	8450 3500 8450 3900
+	8450 3500 8450 3650
 Wire Wire Line
 	8950 4500 8450 4500
 Wire Wire Line
-	9250 4700 9250 4800
-Wire Wire Line
 	9550 4800 9250 4800
 Wire Wire Line
-	8450 4200 8450 4500
+	8450 4200 8450 4350
 Connection ~ 9250 4800
 Wire Wire Line
 	9250 4800 9250 5050
@@ -699,9 +675,9 @@ Wire Wire Line
 Wire Wire Line
 	5950 4700 5950 5400
 Wire Wire Line
-	5950 5400 6450 5400
+	5950 5400 6150 5400
 Wire Wire Line
-	7500 4700 8150 4700
+	7500 4700 7900 4700
 Wire Wire Line
 	7950 5050 7950 5150
 $Comp
@@ -716,17 +692,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7200 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D1
-U 1 1 5D189CC4
-P 6450 2600
-F 0 "D1" V 6496 2521 50  0000 R CNN
-F 1 "1N4148" V 6405 2521 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 2425 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6450 2600 50  0001 C CNN
-	1    6450 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Diode:1N4148 D4
 U 1 1 5D18A7C0
 P 7400 5400
@@ -737,40 +702,15 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7400 
 	1    7400 5400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:1N4148 D2
-U 1 1 5D18BC11
-P 6450 5100
-F 0 "D2" V 6496 5021 50  0000 R CNN
-F 1 "1N4148" V 6405 5021 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 4925 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6450 5100 50  0001 C CNN
-	1    6450 5100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6450 5250 6450 5400
 Wire Wire Line
 	6450 5400 7250 5400
 Wire Wire Line
-	6450 2750 6450 2900
-Wire Wire Line
 	6450 2000 7050 2000
-Wire Wire Line
-	5200 4000 5200 3850
-Text GLabel 1050 3850 0    50   Input ~ 0
-Vin
-Text GLabel 9250 1250 2    50   Input ~ 0
-V+
-Text GLabel 9250 6250 2    50   Input ~ 0
-V-
-Text GLabel 9250 4000 2    50   Input ~ 0
-Vout
 $Comp
-L Transistor_BJT:MPSA42 Q?
+L Transistor_BJT:MPSA42 Q10
 U 1 1 5D15142C
 P 6350 5750
-F 0 "Q?" H 6541 5796 50  0000 L CNN
+F 0 "Q10" H 6541 5796 50  0000 L CNN
 F 1 "MPSA42" H 6541 5705 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6550 5675 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 6350 5750 50  0001 L CNN
@@ -778,10 +718,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 6350 5750 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MPSA42 Q?
+L Transistor_BJT:MPSA42 Q7
 U 1 1 5D1530BD
 P 5250 5250
-F 0 "Q?" H 5441 5296 50  0000 L CNN
+F 0 "Q7" H 5441 5296 50  0000 L CNN
 F 1 "MPSA42" H 5441 5205 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5450 5175 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 5250 5250 50  0001 L CNN
@@ -789,10 +729,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 5250 5250 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MPSA42 Q?
+L Transistor_BJT:MPSA42 Q4
 U 1 1 5D153D39
 P 3350 5350
-F 0 "Q?" H 3541 5396 50  0000 L CNN
+F 0 "Q4" H 3541 5396 50  0000 L CNN
 F 1 "MPSA42" H 3541 5305 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3550 5275 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 3350 5350 50  0001 L CNN
@@ -800,10 +740,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 3350 5350 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MPSA42 Q?
+L Transistor_BJT:MPSA42 Q2
 U 1 1 5D154588
 P 2300 5350
-F 0 "Q?" H 2491 5396 50  0000 L CNN
+F 0 "Q2" H 2491 5396 50  0000 L CNN
 F 1 "MPSA42" H 2491 5305 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2500 5275 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 2300 5350 50  0001 L CNN
@@ -811,10 +751,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 2300 5350 50  000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MPSA42 Q?
+L Transistor_BJT:MPSA42 Q9
 U 1 1 5D155344
 P 6350 3750
-F 0 "Q?" H 6541 3796 50  0000 L CNN
+F 0 "Q9" H 6541 3796 50  0000 L CNN
 F 1 "MPSA42" H 6541 3705 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6550 3675 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 6350 3750 50  0001 L CNN
@@ -822,10 +762,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 6350 3750 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 Q?
+L Transistor_BJT:MPSA92 Q3
 U 1 1 5D155FC6
 P 2900 2250
-F 0 "Q?" H 3091 2204 50  0000 L CNN
+F 0 "Q3" H 3091 2204 50  0000 L CNN
 F 1 "MPSA92" H 3091 2295 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3100 2175 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 2900 2250 50  0001 L CNN
@@ -833,10 +773,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 2900 2250 50  000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 Q?
+L Transistor_BJT:MPSA92 Q6
 U 1 1 5D156B4C
 P 5150 1850
-F 0 "Q?" H 5341 1804 50  0000 L CNN
+F 0 "Q6" H 5341 1804 50  0000 L CNN
 F 1 "MPSA92" H 5341 1895 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5350 1775 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 5150 1850 50  0001 L CNN
@@ -844,10 +784,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 5150 1850 50  000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 Q?
+L Transistor_BJT:MPSA92 Q8
 U 1 1 5D15744D
 P 6350 2250
-F 0 "Q?" H 6541 2204 50  0000 L CNN
+F 0 "Q8" H 6541 2204 50  0000 L CNN
 F 1 "MPSA92" H 6541 2295 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6550 2175 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 6350 2250 50  0001 L CNN
@@ -855,10 +795,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 6350 2250 50  000
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 Q?
+L Transistor_BJT:MPSA92 Q1
 U 1 1 5D157DA9
 P 2100 3850
-F 0 "Q?" H 2291 3804 50  0000 L CNN
+F 0 "Q1" H 2291 3804 50  0000 L CNN
 F 1 "MPSA92" H 2291 3895 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2300 3775 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 2100 3850 50  0001 L CNN
@@ -866,10 +806,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 2100 3850 50  000
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA92 Q?
+L Transistor_BJT:MPSA92 Q5
 U 1 1 5D1588D2
 P 3550 3850
-F 0 "Q?" H 3741 3804 50  0000 L CNN
+F 0 "Q5" H 3741 3804 50  0000 L CNN
 F 1 "MPSA92" H 3741 3895 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3750 3775 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 3550 3850 50  0001 L CNN
@@ -886,10 +826,10 @@ Connection ~ 6450 4050
 Wire Wire Line
 	6950 4050 6450 4050
 $Comp
-L Transistor_BJT:BD135 Q?
+L Transistor_BJT:BD135 Q11
 U 1 1 5D15F31D
 P 7850 2000
-F 0 "Q?" H 8042 2046 50  0000 L CNN
+F 0 "Q11" H 8042 2046 50  0000 L CNN
 F 1 "BD135" H 8042 1955 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 8050 1925 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 7850 2000 50  0001 L CNN
@@ -897,10 +837,10 @@ F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DAT
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BD135 Q?
+L Transistor_BJT:BD135 Q13
 U 1 1 5D1604AE
 P 8350 3300
-F 0 "Q?" H 8542 3346 50  0000 L CNN
+F 0 "Q13" H 8542 3346 50  0000 L CNN
 F 1 "BD135" H 8542 3255 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 8550 3225 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 8350 3300 50  0001 L CNN
@@ -908,16 +848,13 @@ F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DAT
 	1    0    0    -1  
 $EndComp
 Connection ~ 8450 3500
-Connection ~ 9250 4000
 Wire Wire Line
-	9250 4000 5200 4000
-Wire Wire Line
-	8150 3300 7500 3300
+	8150 3300 7900 3300
 $Comp
-L Transistor_BJT:BD136 Q?
+L Transistor_BJT:BD136 Q14
 U 1 1 5D167A82
 P 8350 4700
-F 0 "Q?" H 8542 4654 50  0000 L CNN
+F 0 "Q14" H 8542 4654 50  0000 L CNN
 F 1 "BD136" H 8542 4745 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 8550 4625 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 8350 4700 50  0001 L CNN
@@ -926,10 +863,10 @@ F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DAT
 $EndComp
 Connection ~ 8450 4500
 $Comp
-L Transistor_BJT:BD136 Q?
+L Transistor_BJT:BD136 Q12
 U 1 1 5D16887F
 P 7850 5750
-F 0 "Q?" H 8042 5704 50  0000 L CNN
+F 0 "Q12" H 8042 5704 50  0000 L CNN
 F 1 "BD136" H 8042 5795 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 8050 5675 50  0001 L CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 7850 5750 50  0001 L CNN
@@ -937,21 +874,21 @@ F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DAT
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2SB817 Q?
+L Transistor_BJT:2SB817 Q17
 U 1 1 5D16AB99
-P 9150 4500
-F 0 "Q?" H 9340 4454 50  0000 L CNN
-F 1 "2SB817" H 9340 4545 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-3PB-3_Vertical" H 9350 4425 50  0001 L CIN
-F 3 "http://skory.gylcomp.hu/alkatresz/2SB817.pdf" H 9150 4500 50  0001 L CNN
-	1    9150 4500
+P 9150 4550
+F 0 "Q17" H 9340 4504 50  0000 L CNN
+F 1 "2SB817" H 9340 4595 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-3PB-3_Vertical" H 9350 4475 50  0001 L CIN
+F 3 "http://skory.gylcomp.hu/alkatresz/2SB817.pdf" H 9150 4550 50  0001 L CNN
+	1    9150 4550
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2SB817 Q?
+L Transistor_BJT:2SB817 Q18
 U 1 1 5D16B14D
 P 9150 5500
-F 0 "Q?" H 9340 5454 50  0000 L CNN
+F 0 "Q18" H 9340 5454 50  0000 L CNN
 F 1 "2SB817" H 9340 5545 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-3PB-3_Vertical" H 9350 5425 50  0001 L CIN
 F 3 "http://skory.gylcomp.hu/alkatresz/2SB817.pdf" H 9150 5500 50  0001 L CNN
@@ -959,10 +896,10 @@ F 3 "http://skory.gylcomp.hu/alkatresz/2SB817.pdf" H 9150 5500 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2SD1047 Q?
+L Transistor_BJT:2SD1047 Q16
 U 1 1 5D16B845
 P 9150 3500
-F 0 "Q?" H 9340 3546 50  0000 L CNN
+F 0 "Q16" H 9340 3546 50  0000 L CNN
 F 1 "2SD1047" H 9340 3455 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-3PB-3_Vertical" H 9400 3425 50  0001 L CIN
 F 3 "http://www.st.com/resource/en/datasheet/2sd1047.pdf" H 9150 3500 50  0001 L CNN
@@ -970,10 +907,10 @@ F 3 "http://www.st.com/resource/en/datasheet/2sd1047.pdf" H 9150 3500 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2SD1047 Q?
+L Transistor_BJT:2SD1047 Q15
 U 1 1 5D16C7F6
 P 9150 2300
-F 0 "Q?" H 9340 2346 50  0000 L CNN
+F 0 "Q15" H 9340 2346 50  0000 L CNN
 F 1 "2SD1047" H 9340 2255 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-3PB-3_Vertical" H 9400 2225 50  0001 L CIN
 F 3 "http://www.st.com/resource/en/datasheet/2sd1047.pdf" H 9150 2300 50  0001 L CNN
@@ -981,10 +918,10 @@ F 3 "http://www.st.com/resource/en/datasheet/2sd1047.pdf" H 9150 2300 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N5822 D?
+L Diode:1N5822 D6
 U 1 1 5D16D19A
 P 9750 2750
-F 0 "D?" H 9750 2966 50  0000 C CNN
+F 0 "D6" H 9750 2966 50  0000 C CNN
 F 1 "1N5822" H 9750 2875 50  0000 C CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 9750 2575 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 9750 2750 50  0001 C CNN
@@ -992,10 +929,10 @@ F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 9750 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N5822 D?
+L Diode:1N5822 D5
 U 1 1 5D16E16B
 P 9700 4800
-F 0 "D?" H 9700 4584 50  0000 C CNN
+F 0 "D5" H 9700 4584 50  0000 C CNN
 F 1 "1N5822" H 9700 4675 50  0000 C CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 9700 4625 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 9700 4800 50  0001 C CNN
@@ -1003,47 +940,379 @@ F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 9700 4800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+VDC #PWR03
-U 1 1 5D044B15
-P 4350 2750
-F 0 "#PWR03" H 4350 2650 50  0001 C CNN
-F 1 "+VDC" V 4350 2979 50  0000 L CNN
-F 2 "" H 4350 2750 50  0001 C CNN
-F 3 "" H 4350 2750 50  0001 C CNN
-	1    4350 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:-VDC #PWR?
-U 1 1 5D16F67F
+L power:GND #PWR02
+U 1 1 5D197852
 P 4200 4600
-F 0 "#PWR?" H 4200 4500 50  0001 C CNN
-F 1 "-VDC" H 4200 4875 50  0000 C CNN
+F 0 "#PWR02" H 4200 4350 50  0001 C CNN
+F 1 "GND" H 4205 4427 50  0000 C CNN
 F 2 "" H 4200 4600 50  0001 C CNN
 F 3 "" H 4200 4600 50  0001 C CNN
 	1    4200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Reference_Voltage:LM385D-1.2 U2
+U 1 1 5D1B56D9
+P 6450 5100
+F 0 "U2" V 6496 5012 50  0000 R CNN
+F 1 "LM385D-1.2" V 6405 5012 50  0000 R CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6450 4900 50  0001 C CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF" H 6450 5100 50  0001 C CIN
+	1    6450 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J8
+U 1 1 5D1BFE0F
+P 5050 800
+F 0 "J8" V 5014 712 50  0000 R CNN
+F 1 "Screw_Terminal_01x01" V 4923 712 50  0000 R CNN
+F 2 "" H 5050 800 50  0001 C CNN
+F 3 "~" H 5050 800 50  0001 C CNN
+	1    5050 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J7
+U 1 1 5D1C2921
+P 4600 7600
+F 0 "J7" V 4472 7680 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 4563 7680 50  0000 L CNN
+F 2 "" H 4600 7600 50  0001 C CNN
+F 3 "~" H 4600 7600 50  0001 C CNN
+	1    4600 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J1
+U 1 1 5D1C30CA
+P 850 3850
+F 0 "J1" H 768 3625 50  0000 C CNN
+F 1 "Screw_Terminal_01x01" H 768 3716 50  0000 C CNN
+F 2 "" H 850 3850 50  0001 C CNN
+F 3 "~" H 850 3850 50  0001 C CNN
+	1    850  3850
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+24V #PWR?
-U 1 1 5D170FA2
-P 9900 2750
-F 0 "#PWR?" H 9900 2600 50  0001 C CNN
-F 1 "+24V" V 9915 2878 50  0000 L CNN
-F 2 "" H 9900 2750 50  0001 C CNN
-F 3 "" H 9900 2750 50  0001 C CNN
-	1    9900 2750
-	0    1    1    0   
+L Connector:Screw_Terminal_01x01 J16
+U 1 1 5D1C3AA3
+P 10050 4800
+F 0 "J16" H 10130 4842 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" H 10130 4751 50  0000 L CNN
+F 2 "" H 10050 4800 50  0001 C CNN
+F 3 "~" H 10050 4800 50  0001 C CNN
+	1    10050 4800
+	1    0    0    -1  
 $EndComp
 $Comp
-L power:-24V #PWR?
-U 1 1 5D1728CA
-P 9850 4800
-F 0 "#PWR?" H 9850 4900 50  0001 C CNN
-F 1 "-24V" V 9865 4928 50  0000 L CNN
-F 2 "" H 9850 4800 50  0001 C CNN
-F 3 "" H 9850 4800 50  0001 C CNN
-	1    9850 4800
+L Connector:Screw_Terminal_01x01 J17
+U 1 1 5D1C481F
+P 10100 2750
+F 0 "J17" H 10180 2792 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" H 10180 2701 50  0000 L CNN
+F 2 "" H 10100 2750 50  0001 C CNN
+F 3 "~" H 10100 2750 50  0001 C CNN
+	1    10100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5D1C51E0
+P 5400 4000
+F 0 "JP2" H 5400 4185 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5400 4094 50  0000 C CNN
+F 2 "" H 5400 4000 50  0001 C CNN
+F 3 "~" H 5400 4000 50  0001 C CNN
+	1    5400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5D1C6527
+P 5200 4200
+F 0 "JP1" V 5154 4248 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 5245 4248 50  0000 L CNN
+F 2 "" H 5200 4200 50  0001 C CNN
+F 3 "~" H 5200 4200 50  0001 C CNN
+	1    5200 4200
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	5200 4300 5200 4500
+Wire Wire Line
+	5200 4500 4200 4500
+Wire Wire Line
+	4200 4500 4200 4550
+Connection ~ 4200 4550
+Wire Wire Line
+	5200 3850 5200 4000
+Wire Wire Line
+	5300 4000 5200 4000
+Connection ~ 5200 4000
+Wire Wire Line
+	5200 4000 5200 4100
+Wire Wire Line
+	8300 4000 8300 3850
+Wire Wire Line
+	8300 3850 8750 3850
+Wire Wire Line
+	8750 3850 8750 4000
+Wire Wire Line
+	8750 4000 9250 4000
+Wire Wire Line
+	5500 4000 8300 4000
+Connection ~ 9250 4000
+Wire Wire Line
+	6450 2850 6450 2900
+$Comp
+L Reference_Voltage:LM385D-1.2 U1
+U 1 1 5D1B6A9C
+P 6450 2700
+F 0 "U1" V 6496 2612 50  0000 R CNN
+F 1 "LM385D-1.2" V 6405 2612 50  0000 R CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6450 2500 50  0001 C CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF" H 6450 2700 50  0001 C CIN
+	1    6450 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP5
+U 1 1 5D1DE1E4
+P 6700 2500
+F 0 "JP5" V 6654 2548 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 6745 2548 50  0000 L CNN
+F 2 "" H 6700 2500 50  0001 C CNN
+F 3 "~" H 6700 2500 50  0001 C CNN
+	1    6700 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 2400 6550 2450
+Wire Wire Line
+	6550 2450 6450 2450
+Wire Wire Line
+	6550 2400 6700 2400
+Wire Wire Line
+	6450 2550 6550 2550
+Wire Wire Line
+	6550 2550 6550 2600
+Wire Wire Line
+	6550 2600 6700 2600
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 5D1EAB70
+P 6300 5300
+F 0 "JP4" V 6254 5348 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 6345 5348 50  0000 L CNN
+F 2 "" H 6300 5300 50  0001 C CNN
+F 3 "~" H 6300 5300 50  0001 C CNN
+	1    6300 5300
+	0    1    1    0   
+$EndComp
+Connection ~ 6300 5400
+Wire Wire Line
+	6300 5400 6450 5400
+Wire Wire Line
+	6300 5200 6400 5200
+Wire Wire Line
+	6400 5200 6400 5250
+Wire Wire Line
+	6400 5250 6450 5250
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 5D1F173A
+P 6150 4700
+F 0 "JP3" V 6104 4748 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 6195 4748 50  0000 L CNN
+F 2 "" H 6150 4700 50  0001 C CNN
+F 3 "~" H 6150 4700 50  0001 C CNN
+	1    6150 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 4800 6150 5400
+Connection ~ 6150 5400
+Wire Wire Line
+	6150 5400 6300 5400
+Wire Wire Line
+	6150 2450 6450 2450
+Connection ~ 6450 2450
+Wire Wire Line
+	6150 2450 6150 4600
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 5D1FF032
+P 2000 5900
+F 0 "J3" H 2108 6081 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 2108 5990 50  0000 C CNN
+F 2 "" H 2000 5900 50  0001 C CNN
+F 3 "~" H 2000 5900 50  0001 C CNN
+	1    2000 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 5900
+Wire Wire Line
+	2200 5900 2200 6050
+$Comp
+L Connector:Conn_01x01_Male J6
+U 1 1 5D20084A
+P 3250 5900
+F 0 "J6" H 3358 6081 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 3358 5990 50  0000 C CNN
+F 2 "" H 3250 5900 50  0001 C CNN
+F 3 "~" H 3250 5900 50  0001 C CNN
+	1    3250 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 5900
+Wire Wire Line
+	3450 5900 3450 6050
+$Comp
+L Connector:Conn_01x01_Male J4
+U 1 1 5D2010E6
+P 2600 2000
+F 0 "J4" H 2708 2181 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 2708 2090 50  0000 C CNN
+F 2 "" H 2600 2000 50  0001 C CNN
+F 3 "~" H 2600 2000 50  0001 C CNN
+	1    2600 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 2000
+Wire Wire Line
+	2800 2000 2800 1850
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 5D201758
+P 2000 3600
+F 0 "J2" H 2108 3781 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 2108 3690 50  0000 C CNN
+F 2 "" H 2000 3600 50  0001 C CNN
+F 3 "~" H 2000 3600 50  0001 C CNN
+	1    2000 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 3600
+Wire Wire Line
+	2200 3600 2200 3650
+$Comp
+L Connector:Conn_01x01_Male J5
+U 1 1 5D201D56
+P 3250 3600
+F 0 "J5" H 3358 3781 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 3358 3690 50  0000 C CNN
+F 2 "" H 3250 3600 50  0001 C CNN
+F 3 "~" H 3250 3600 50  0001 C CNN
+	1    3250 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 3600
+Wire Wire Line
+	3450 3600 3450 3650
+$Comp
+L Connector:Conn_01x01_Male J9
+U 1 1 5D2021BC
+P 6250 1750
+F 0 "J9" H 6358 1931 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6358 1840 50  0000 C CNN
+F 2 "" H 6250 1750 50  0001 C CNN
+F 3 "~" H 6250 1750 50  0001 C CNN
+	1    6250 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 1750
+Wire Wire Line
+	6450 1750 6450 1850
+$Comp
+L Connector:Conn_01x01_Male J14
+U 1 1 5D20277F
+P 9050 3700
+F 0 "J14" H 9158 3881 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 9158 3790 50  0000 C CNN
+F 2 "" H 9050 3700 50  0001 C CNN
+F 3 "~" H 9050 3700 50  0001 C CNN
+	1    9050 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 9250 3700
+$Comp
+L Connector:Conn_01x01_Male J15
+U 1 1 5D20324F
+P 9050 4350
+F 0 "J15" H 9158 4531 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 9158 4440 50  0000 C CNN
+F 2 "" H 9050 4350 50  0001 C CNN
+F 3 "~" H 9050 4350 50  0001 C CNN
+	1    9050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J10
+U 1 1 5D20366F
+P 7900 3100
+F 0 "J10" V 7962 3144 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 8053 3144 50  0000 L CNN
+F 2 "" H 7900 3100 50  0001 C CNN
+F 3 "~" H 7900 3100 50  0001 C CNN
+	1    7900 3100
+	0    1    1    0   
+$EndComp
+Connection ~ 7900 3300
+Wire Wire Line
+	7900 3300 7500 3300
+$Comp
+L Connector:Conn_01x01_Male J11
+U 1 1 5D2040E1
+P 7900 4500
+F 0 "J11" V 7962 4544 50  0000 L CNN
+F 1 "Conn_01x01_Male" V 8053 4544 50  0000 L CNN
+F 2 "" H 7900 4500 50  0001 C CNN
+F 3 "~" H 7900 4500 50  0001 C CNN
+	1    7900 4500
+	0    1    1    0   
+$EndComp
+Connection ~ 7900 4700
+Wire Wire Line
+	7900 4700 8150 4700
+$Comp
+L Connector:Conn_01x01_Male J13
+U 1 1 5D20447A
+P 8250 4350
+F 0 "J13" H 8358 4531 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 8358 4440 50  0000 C CNN
+F 2 "" H 8250 4350 50  0001 C CNN
+F 3 "~" H 8250 4350 50  0001 C CNN
+	1    8250 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8450 4350
+Wire Wire Line
+	8450 4350 8450 4500
+$Comp
+L Connector:Conn_01x01_Male J12
+U 1 1 5D2048FE
+P 8250 3650
+F 0 "J12" H 8358 3831 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 8358 3740 50  0000 C CNN
+F 2 "" H 8250 3650 50  0001 C CNN
+F 3 "~" H 8250 3650 50  0001 C CNN
+	1    8250 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8450 3650
+Wire Wire Line
+	8450 3650 8450 3900
+Wire Wire Line
+	4350 2750 4350 1250
+Connection ~ 4350 1250
+Wire Wire Line
+	4350 1250 5050 1250
+Wire Wire Line
+	9250 4750 9250 4800
+Wire Wire Line
+	8950 4500 8950 4550
+Wire Wire Line
+	9250 4350 9250 4300
+Connection ~ 9250 4350
 $EndSCHEMATC

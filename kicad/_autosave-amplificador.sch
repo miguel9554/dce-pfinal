@@ -218,7 +218,7 @@ U 1 1 5D022D76
 P 1200 3850
 F 0 "C1" V 948 3850 50  0000 C CNN
 F 1 "10u" V 1039 3850 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D16.0mm_W5.0mm_P7.50mm" H 1238 3700 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 1238 3700 50  0001 C CNN
 F 3 "~" H 1200 3850 50  0001 C CNN
 	1    1200 3850
 	0    1    1    0   
@@ -967,7 +967,7 @@ U 1 1 5D1BFE0F
 P 5050 800
 F 0 "J8" V 5014 712 50  0000 R CNN
 F 1 "Screw_Terminal_01x01" V 4923 712 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 5050 800 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 5050 800 50  0001 C CNN
 F 3 "~" H 5050 800 50  0001 C CNN
 	1    5050 800 
 	0    -1   -1   0   
@@ -978,7 +978,7 @@ U 1 1 5D1C2921
 P 4600 7600
 F 0 "J7" V 4472 7680 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 4563 7680 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 4600 7600 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 4600 7600 50  0001 C CNN
 F 3 "~" H 4600 7600 50  0001 C CNN
 	1    4600 7600
 	0    1    1    0   
@@ -989,7 +989,7 @@ U 1 1 5D1C30CA
 P 850 3850
 F 0 "J1" H 768 3625 50  0000 C CNN
 F 1 "Screw_Terminal_01x01" H 768 3716 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 850 3850 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 850 3850 50  0001 C CNN
 F 3 "~" H 850 3850 50  0001 C CNN
 	1    850  3850
 	-1   0    0    1   
@@ -1000,7 +1000,7 @@ U 1 1 5D1C3AA3
 P 10050 4800
 F 0 "J16" H 10130 4842 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" H 10130 4751 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 10050 4800 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 10050 4800 50  0001 C CNN
 F 3 "~" H 10050 4800 50  0001 C CNN
 	1    10050 4800
 	1    0    0    -1  
@@ -1011,7 +1011,7 @@ U 1 1 5D1C481F
 P 10100 2750
 F 0 "J17" H 10180 2792 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" H 10180 2701 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 10100 2750 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 10100 2750 50  0001 C CNN
 F 3 "~" H 10100 2750 50  0001 C CNN
 	1    10100 2750
 	1    0    0    -1  
@@ -1146,7 +1146,7 @@ U 1 1 5D1FF032
 P 2000 5900
 F 0 "J3" H 2108 6081 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 2108 5990 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 2000 5900 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2000 5900 50  0001 C CNN
 F 3 "~" H 2000 5900 50  0001 C CNN
 	1    2000 5900
 	1    0    0    -1  
@@ -1160,7 +1160,7 @@ U 1 1 5D20084A
 P 3250 5900
 F 0 "J6" H 3358 6081 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3358 5990 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 3250 5900 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3250 5900 50  0001 C CNN
 F 3 "~" H 3250 5900 50  0001 C CNN
 	1    3250 5900
 	1    0    0    -1  
@@ -1174,7 +1174,7 @@ U 1 1 5D2010E6
 P 2600 2000
 F 0 "J4" H 2708 2181 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 2708 2090 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 2600 2000 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2600 2000 50  0001 C CNN
 F 3 "~" H 2600 2000 50  0001 C CNN
 	1    2600 2000
 	1    0    0    -1  
@@ -1188,7 +1188,7 @@ U 1 1 5D201758
 P 2000 3600
 F 0 "J2" H 2108 3781 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 2108 3690 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 2000 3600 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2000 3600 50  0001 C CNN
 F 3 "~" H 2000 3600 50  0001 C CNN
 	1    2000 3600
 	1    0    0    -1  
@@ -1202,7 +1202,7 @@ U 1 1 5D201D56
 P 3250 3600
 F 0 "J5" H 3358 3781 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3358 3690 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 3250 3600 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3250 3600 50  0001 C CNN
 F 3 "~" H 3250 3600 50  0001 C CNN
 	1    3250 3600
 	1    0    0    -1  
@@ -1216,7 +1216,7 @@ U 1 1 5D2021BC
 P 6250 1750
 F 0 "J9" H 6358 1931 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 6358 1840 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 6250 1750 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6250 1750 50  0001 C CNN
 F 3 "~" H 6250 1750 50  0001 C CNN
 	1    6250 1750
 	1    0    0    -1  
@@ -1230,7 +1230,7 @@ U 1 1 5D20277F
 P 9050 3700
 F 0 "J14" H 9158 3881 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9158 3790 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 9050 3700 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 9050 3700 50  0001 C CNN
 F 3 "~" H 9050 3700 50  0001 C CNN
 	1    9050 3700
 	1    0    0    -1  
@@ -1242,7 +1242,7 @@ U 1 1 5D20324F
 P 9050 4350
 F 0 "J15" H 9158 4531 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9158 4440 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 9050 4350 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 9050 4350 50  0001 C CNN
 F 3 "~" H 9050 4350 50  0001 C CNN
 	1    9050 4350
 	1    0    0    -1  
@@ -1253,7 +1253,7 @@ U 1 1 5D20366F
 P 7900 3100
 F 0 "J10" V 7962 3144 50  0000 L CNN
 F 1 "Conn_01x01_Male" V 8053 3144 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 7900 3100 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7900 3100 50  0001 C CNN
 F 3 "~" H 7900 3100 50  0001 C CNN
 	1    7900 3100
 	0    1    1    0   
@@ -1267,7 +1267,7 @@ U 1 1 5D2040E1
 P 7900 4500
 F 0 "J11" V 7962 4544 50  0000 L CNN
 F 1 "Conn_01x01_Male" V 8053 4544 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 7900 4500 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7900 4500 50  0001 C CNN
 F 3 "~" H 7900 4500 50  0001 C CNN
 	1    7900 4500
 	0    1    1    0   
@@ -1281,7 +1281,7 @@ U 1 1 5D20447A
 P 8250 4350
 F 0 "J13" H 8358 4531 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 8358 4440 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 8250 4350 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 8250 4350 50  0001 C CNN
 F 3 "~" H 8250 4350 50  0001 C CNN
 	1    8250 4350
 	1    0    0    -1  
@@ -1295,7 +1295,7 @@ U 1 1 5D2048FE
 P 8250 3650
 F 0 "J12" H 8358 3831 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 8358 3740 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 8250 3650 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 8250 3650 50  0001 C CNN
 F 3 "~" H 8250 3650 50  0001 C CNN
 	1    8250 3650
 	1    0    0    -1  
