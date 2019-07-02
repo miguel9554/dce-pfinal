@@ -69,3 +69,36 @@ C 47u x 2
 C 1000u x 1
 tira de pines para jumpers
 bornera
+
+02/07
+MPSA06 x 4 (gm electrónica)
+MPSA56 x 5 (gm electrónica)
+mje340 x 3
+mje350 x 2
+2sc3281 x 2 (microelectrónica)
+2sa1302 x 2 (microelectrónica)
+LM385Z1.2D x 2 (gm electrónica, es el que viene en encapsulado smd)
+1N4148SMD x 2
+1N5822 x 2 (microelectrónica)
+
+R
+
+0,2 x 2 (1 W)
+10 x 2
+47 x 1
+68 x 2
+100 x 2
+200 x 1
+470 x 1 (1%)
+1.2k x 1
+2.2k x 4
+3.3k x 1
+12k x 2 (1%)
+
+C
+
+10 u poliester
+1000 u
+100 p
+22 n
+47 u x 5

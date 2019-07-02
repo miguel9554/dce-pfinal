@@ -1,1 +1,2 @@
 los conectores tienen todos tamaños random, verificar eso, tambien el tamaño del capa electrolitico
+agregar capacitores de bypass
