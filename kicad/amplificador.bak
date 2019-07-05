@@ -1139,29 +1139,6 @@ Connection ~ 6450 1750
 Wire Wire Line
 	6450 1750 6450 1850
 $Comp
-L Connector:Conn_01x01_Male J14
-U 1 1 5D20277F
-P 9050 3700
-F 0 "J14" H 9158 3881 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9158 3790 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 9050 3700 50  0001 C CNN
-F 3 "~" H 9050 3700 50  0001 C CNN
-	1    9050 3700
-	1    0    0    -1  
-$EndComp
-Connection ~ 9250 3700
-$Comp
-L Connector:Conn_01x01_Male J15
-U 1 1 5D20324F
-P 9050 4350
-F 0 "J15" H 9158 4531 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9158 4440 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 9050 4350 50  0001 C CNN
-F 3 "~" H 9050 4350 50  0001 C CNN
-	1    9050 4350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x01_Male J10
 U 1 1 5D20366F
 P 7900 3100
@@ -1228,7 +1205,6 @@ Wire Wire Line
 	8950 4500 8950 4550
 Wire Wire Line
 	9250 4350 9250 4300
-Connection ~ 9250 4350
 Wire Wire Line
 	5950 5400 6450 5400
 Wire Wire Line
@@ -1389,4 +1365,17 @@ F 3 "" H 3650 950 50  0001 C CNN
 	1    3650 950 
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5D20D458
+P 9850 4000
+F 0 "J?" H 9930 4042 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" H 9930 3951 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 9850 4000 50  0001 C CNN
+F 3 "~" H 9850 4000 50  0001 C CNN
+	1    9850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 4000 9250 4000
 $EndSCHEMATC

@@ -1365,4 +1365,17 @@ F 3 "" H 3650 950 50  0001 C CNN
 	1    3650 950 
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J14
+U 1 1 5D20D458
+P 9850 4000
+F 0 "J14" H 9930 4042 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" H 9930 3951 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 9850 4000 50  0001 C CNN
+F 3 "~" H 9850 4000 50  0001 C CNN
+	1    9850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 4000 9250 4000
 $EndSCHEMATC
