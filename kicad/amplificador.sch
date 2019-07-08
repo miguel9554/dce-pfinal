@@ -947,7 +947,7 @@ U 1 1 5D1BFE0F
 P 5050 800
 F 0 "J8" V 5014 712 50  0000 R CNN
 F 1 "Screw_Terminal_01x01" V 4923 712 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 5050 800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5050 800 50  0001 C CNN
 F 3 "~" H 5050 800 50  0001 C CNN
 	1    5050 800 
 	0    -1   -1   0   
@@ -958,21 +958,10 @@ U 1 1 5D1C2921
 P 4600 7600
 F 0 "J7" V 4472 7680 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 4563 7680 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 4600 7600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4600 7600 50  0001 C CNN
 F 3 "~" H 4600 7600 50  0001 C CNN
 	1    4600 7600
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x01 J1
-U 1 1 5D1C30CA
-P 850 3850
-F 0 "J1" H 768 3625 50  0000 C CNN
-F 1 "Screw_Terminal_01x01" H 768 3716 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 850 3850 50  0001 C CNN
-F 3 "~" H 850 3850 50  0001 C CNN
-	1    850  3850
-	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x01 J16
@@ -980,7 +969,7 @@ U 1 1 5D1C3AA3
 P 10050 4800
 F 0 "J16" H 10130 4842 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" H 10130 4751 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 10050 4800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10050 4800 50  0001 C CNN
 F 3 "~" H 10050 4800 50  0001 C CNN
 	1    10050 4800
 	1    0    0    -1  
@@ -991,7 +980,7 @@ U 1 1 5D1C481F
 P 10100 2750
 F 0 "J17" H 10180 2792 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" H 10180 2701 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 10100 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10100 2750 50  0001 C CNN
 F 3 "~" H 10100 2750 50  0001 C CNN
 	1    10100 2750
 	1    0    0    -1  
@@ -1002,7 +991,7 @@ U 1 1 5D1C51E0
 P 5400 4000
 F 0 "JP2" H 5400 4185 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 5400 4094 50  0000 C CNN
-F 2 "kicad:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5400 4000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 4000 50  0001 C CNN
 F 3 "~" H 5400 4000 50  0001 C CNN
 	1    5400 4000
 	1    0    0    -1  
@@ -1013,7 +1002,7 @@ U 1 1 5D1C6527
 P 5200 4200
 F 0 "JP1" V 5154 4248 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 5245 4248 50  0000 L CNN
-F 2 "kicad:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5200 4200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5200 4200 50  0001 C CNN
 F 3 "~" H 5200 4200 50  0001 C CNN
 	1    5200 4200
 	0    1    1    0   
@@ -1060,7 +1049,7 @@ U 1 1 5D1FF032
 P 2000 5900
 F 0 "J3" H 2108 6081 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 2108 5990 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2000 5900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 5900 50  0001 C CNN
 F 3 "~" H 2000 5900 50  0001 C CNN
 	1    2000 5900
 	1    0    0    -1  
@@ -1074,7 +1063,7 @@ U 1 1 5D20084A
 P 3250 5900
 F 0 "J6" H 3358 6081 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3358 5990 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3250 5900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3250 5900 50  0001 C CNN
 F 3 "~" H 3250 5900 50  0001 C CNN
 	1    3250 5900
 	1    0    0    -1  
@@ -1088,7 +1077,7 @@ U 1 1 5D2010E6
 P 2600 2000
 F 0 "J4" H 2708 2181 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 2708 2090 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2600 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2600 2000 50  0001 C CNN
 F 3 "~" H 2600 2000 50  0001 C CNN
 	1    2600 2000
 	1    0    0    -1  
@@ -1102,7 +1091,7 @@ U 1 1 5D201758
 P 2000 3600
 F 0 "J2" H 2108 3781 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 2108 3690 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2000 3600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 3600 50  0001 C CNN
 F 3 "~" H 2000 3600 50  0001 C CNN
 	1    2000 3600
 	1    0    0    -1  
@@ -1116,7 +1105,7 @@ U 1 1 5D201D56
 P 3250 3600
 F 0 "J5" H 3358 3781 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3358 3690 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3250 3600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3250 3600 50  0001 C CNN
 F 3 "~" H 3250 3600 50  0001 C CNN
 	1    3250 3600
 	1    0    0    -1  
@@ -1130,7 +1119,7 @@ U 1 1 5D2021BC
 P 6250 1750
 F 0 "J9" H 6358 1931 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 6358 1840 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6250 1750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6250 1750 50  0001 C CNN
 F 3 "~" H 6250 1750 50  0001 C CNN
 	1    6250 1750
 	1    0    0    -1  
@@ -1144,7 +1133,7 @@ U 1 1 5D20366F
 P 7900 3100
 F 0 "J10" V 7962 3144 50  0000 L CNN
 F 1 "Conn_01x01_Male" V 8053 3144 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7900 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7900 3100 50  0001 C CNN
 F 3 "~" H 7900 3100 50  0001 C CNN
 	1    7900 3100
 	0    1    1    0   
@@ -1158,7 +1147,7 @@ U 1 1 5D2040E1
 P 7900 4500
 F 0 "J11" V 7962 4544 50  0000 L CNN
 F 1 "Conn_01x01_Male" V 8053 4544 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7900 4500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7900 4500 50  0001 C CNN
 F 3 "~" H 7900 4500 50  0001 C CNN
 	1    7900 4500
 	0    1    1    0   
@@ -1172,7 +1161,7 @@ U 1 1 5D20447A
 P 8250 4350
 F 0 "J13" H 8358 4531 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 8358 4440 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 8250 4350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8250 4350 50  0001 C CNN
 F 3 "~" H 8250 4350 50  0001 C CNN
 	1    8250 4350
 	1    0    0    -1  
@@ -1186,7 +1175,7 @@ U 1 1 5D2048FE
 P 8250 3650
 F 0 "J12" H 8358 3831 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 8358 3740 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 8250 3650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8250 3650 50  0001 C CNN
 F 3 "~" H 8250 3650 50  0001 C CNN
 	1    8250 3650
 	1    0    0    -1  
@@ -1215,7 +1204,7 @@ U 1 1 5D27FE44
 P 6650 5250
 F 0 "J18" H 6758 5431 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 6758 5340 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6650 5250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6650 5250 50  0001 C CNN
 F 3 "~" H 6650 5250 50  0001 C CNN
 	1    6650 5250
 	-1   0    0    1   
@@ -1227,7 +1216,7 @@ U 1 1 5D280930
 P 4600 5000
 F 0 "JP3" H 4600 5185 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 4600 5094 50  0000 C CNN
-F 2 "kicad:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4600 5000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4600 5000 50  0001 C CNN
 F 3 "~" H 4600 5000 50  0001 C CNN
 	1    4600 5000
 	1    0    0    -1  
@@ -1252,7 +1241,7 @@ U 1 1 5D28F36B
 P 6000 2500
 F 0 "JP4" H 6000 2685 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 6000 2594 50  0000 C CNN
-F 2 "kicad:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6000 2500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 2500 50  0001 C CNN
 F 3 "~" H 6000 2500 50  0001 C CNN
 	1    6000 2500
 	1    0    0    -1  
@@ -1276,7 +1265,7 @@ U 1 1 5D204C85
 P 2600 3000
 F 0 "J19" H 2708 3181 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 2708 3090 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2600 3000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2600 3000 50  0001 C CNN
 F 3 "~" H 2600 3000 50  0001 C CNN
 	1    2600 3000
 	1    0    0    -1  
@@ -1371,11 +1360,104 @@ U 1 1 5D20D458
 P 9850 4000
 F 0 "J14" H 9930 4042 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" H 9930 3951 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 9850 4000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9850 4000 50  0001 C CNN
 F 3 "~" H 9850 4000 50  0001 C CNN
 	1    9850 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9650 4000 9250 4000
+$Comp
+L Connector:Conn_01x01_Male J15
+U 1 1 5D31F6CD
+P 1600 3650
+F 0 "J15" H 1708 3831 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1708 3740 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1600 3650 50  0001 C CNN
+F 3 "~" H 1600 3650 50  0001 C CNN
+	1    1600 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J1
+U 1 1 5D1C30CA
+P 850 3850
+F 0 "J1" H 768 3625 50  0000 C CNN
+F 1 "Screw_Terminal_01x01" H 768 3716 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 850 3850 50  0001 C CNN
+F 3 "~" H 850 3850 50  0001 C CNN
+	1    850  3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J20
+U 1 1 5D31FA4D
+P 4200 3650
+F 0 "J20" H 4308 3831 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4308 3740 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4200 3650 50  0001 C CNN
+F 3 "~" H 4200 3650 50  0001 C CNN
+	1    4200 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J22
+U 1 1 5D33116F
+P 3200 1000
+F 0 "J22" H 3118 775 50  0000 C CNN
+F 1 "Screw_Terminal_01x01" H 3118 866 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3200 1000 50  0001 C CNN
+F 3 "~" H 3200 1000 50  0001 C CNN
+	1    3200 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J21
+U 1 1 5D339AF8
+P 3200 900
+F 0 "J21" H 3118 675 50  0000 C CNN
+F 1 "Screw_Terminal_01x01" H 3118 766 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3200 900 50  0001 C CNN
+F 3 "~" H 3200 900 50  0001 C CNN
+	1    3200 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J23
+U 1 1 5D342184
+P 3200 1100
+F 0 "J23" H 3118 875 50  0000 C CNN
+F 1 "Screw_Terminal_01x01" H 3118 966 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3200 1100 50  0001 C CNN
+F 3 "~" H 3200 1100 50  0001 C CNN
+	1    3200 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 950  3400 1000
+Connection ~ 3400 1000
+Wire Wire Line
+	3400 1000 3400 1100
+Connection ~ 3400 950 
+Wire Wire Line
+	3400 950  3400 900 
+Wire Wire Line
+	3400 950  3650 950 
+Connection ~ 3650 950 
+$Comp
+L Connector:Screw_Terminal_01x01 J24
+U 1 1 5D3671E0
+P 3200 800
+F 0 "J24" H 3118 575 50  0000 C CNN
+F 1 "Screw_Terminal_01x01" H 3118 666 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3200 800 50  0001 C CNN
+F 3 "~" H 3200 800 50  0001 C CNN
+	1    3200 800 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 800  3400 900 
+Connection ~ 3400 900 
+Wire Wire Line
+	3400 900  3400 950 
 $EndSCHEMATC
