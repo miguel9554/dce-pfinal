@@ -1,4 +1,4 @@
-bc557b x 10
+﻿bc557b x 10
 bc547b x 10
 R 68 *
 R 100 *
@@ -102,3 +102,13 @@ C
 100 p
 22 n
 47 u x 5
+
+
+17/09
+
+SMD
+C 47u
+R 10k
+R 2k2
+
+potenciometro 200 ohm
