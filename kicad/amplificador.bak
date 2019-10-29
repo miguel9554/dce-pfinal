@@ -1236,10 +1236,6 @@ Wire Wire Line
 	6450 2500 6450 2550
 Wire Wire Line
 	5900 2500 5550 2500
-Wire Wire Line
-	5550 2500 5550 2750
-Wire Wire Line
-	5550 2750 5050 2750
 $Comp
 L Connector:Conn_01x01_Male J19
 U 1 1 5D204C85
@@ -1506,4 +1502,9 @@ F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DAT
 	1    6350 3750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5550 2500 5550 3250
+Wire Wire Line
+	5550 3250 5050 3250
+Connection ~ 5050 3250
 $EndSCHEMATC
