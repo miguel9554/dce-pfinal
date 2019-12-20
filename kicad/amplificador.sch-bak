@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:amplificador-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -344,6 +345,8 @@ Wire Wire Line
 Wire Wire Line
 	2800 1550 2800 1250
 Wire Wire Line
+	6150 2250 4000 2250
+Wire Wire Line
 	3700 2250 3400 2250
 Wire Wire Line
 	3400 1850 3400 2250
@@ -354,7 +357,7 @@ Wire Wire Line
 	3400 1550 3400 1250
 Connection ~ 3400 1250
 Wire Wire Line
-	5050 2400 5050 2250
+	5050 2400 5050 2050
 Wire Wire Line
 	6450 1250 6450 1350
 Wire Wire Line
@@ -1504,11 +1507,4 @@ Wire Wire Line
 Wire Wire Line
 	5550 3250 5050 3250
 Connection ~ 5050 3250
-Wire Wire Line
-	4000 2250 5050 2250
-Connection ~ 5050 2250
-Wire Wire Line
-	5050 2250 5050 2050
-Wire Wire Line
-	5050 2250 6150 2250
 $EndSCHEMATC
