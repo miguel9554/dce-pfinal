@@ -49,4 +49,90 @@ Cálculos
 * I_R2	:	1.44m
 * I_R1	:	2.3m
 * I_R15	:	52u
-* I_R5 	:	16.67u	
+* I_R5 	:	16.67u
+
+# 03/02/2020
+
+## 16:40, 1ra medición
+
+Medimos el punto de operación del amplificador diferencial y la fuente de corriente (nodos diff LT)
+
+* V_R10 [mV]:	573.2			(J9 vs V+)
+* V_R8 	[mV]:	387.5			(J4 vs V+)
+* V_R7 	[mV]:	5.3			(entre J19 y J2)
+* V_R6 	[mV]:	378.4			(entre J19 y J20)
+* V_R2 	[mV]:	99.8			(J3 vs V-)
+* V_R1 	[mV]:	157.2			(J6 vs V-, entrada)
+* V_bQ2 [mV]:	604.7			(J15)
+* V_eQ2 [V]:	1.175
+* V_bQ3 [mV]:	200.8
+* V_eQ3  [V]:	0.806
+
+
+Soldamos los conectores de Q2 y Q4 que estaban desconectados, medimos de vuelta
+
+## 17:37, 2da medición
+
+Medimos el punto de operación del amplificador diferencial y la fuente de corriente (nodos diff LT)
+
+* V_R10 [mV]:	571.1				(J9 vs V+)
+* V_R8 	[mV]:	383.5				(J4 vs V+)
+* V_R7 	[mV]:	190.8				(entre J19 y J2)
+* V_R6 	[mV]:	191.1				(entre J19 y J20)
+* V_R2 	[mV]:	130.9				(J3 vs V-)
+* V_R1 	[mV]:	129.0				(J6 vs V-, entrada)
+* V_bQ2 [mV]:	102.3				(J15)
+* V_eQ2 [mV]:	696.0
+* V_bQ3 [mV]:	103.0
+* V_eQ3 [mV]:	696.0
+
+Soldamos R10 a V+, y el capa de filtrado de la fuente de corriente (C7 en Kicad) a V+
+
+## 18:32, 3ra medición
+
+Medimos el punto de operación del amplificador diferencial y la fuente de corriente (nodos diff LT)
+
+* V_R10 [mV]:	563.5				(J9 vs V+)
+* V_R8 	[mV]:	538.5				(J4 vs V+)
+* V_R7 	[mV]:	267.4				(entre J19 y J2)
+* V_R6 	[mV]:	267.3				(entre J19 y J20)
+* V_R2 	[mV]:	183.0				(J3 vs V-)
+* V_R1 	[mV]:	180.0				(J6 vs V-, entrada)
+* V_bQ2 [mV]:	141.8				(J15)
+* V_eQ2 [mV]:	742.0
+* V_bQ3 [mV]:	143.2
+* V_eQ3 [mV]:	742.0
+
+Cambiamos la resistencia R8 por una de 47, era de 100 y estaba dando mal por eso
+
+## 19:14, 4ta medición
+
+Medimos el punto de operación del amplificador diferencial y la fuente de corriente (nodos diff LT)
+
+* V_R10 [mV]:	561.6				(J9 vs V+)
+* V_R8 	[mV]:	497.8				(J4 vs V+)
+* V_R7 	[mV]:	528.9				(entre J19 y J2)
+* V_R6 	[mV]:	529.4				(entre J19 y J20)
+* V_R2 	[mV]:	361.8				(J3 vs V-)
+* V_R1 	[mV]:	357.5				(J6 vs V-, entrada)
+* V_bQ2 [mV]:	274.3				(J15)
+* V_eQ2 [mV]:	880.0
+* V_bQ3 [mV]:	275.5
+* V_eQ3 [mV]:	879.0
+
+Medimos con 30V GUARDA CON LAS CHISPAS
+
+## 19:21, 5ta medición
+
+Medimos el punto de operación del amplificador diferencial y la fuente de corriente (nodos diff LT)
+
+* V_R10 [mV]:	582.7				(J9 vs V+)
+* V_R8 	[mV]:	548.5				(J4 vs V+)
+* V_R7 	[mV]:	583.3				(entre J19 y J2)
+* V_R6 	[mV]:	581.7				(entre J19 y J20)
+* V_R2 	[mV]:	399.1				(J3 vs V-)
+* V_R1 	[mV]:	392.9				(J6 vs V-, entrada)
+* V_bQ2 [mV]:	245.1				(J15)
+* V_eQ2 [mV]:	795.0
+* V_bQ3 [mV]:	245.7
+* V_eQ3 [mV]:	796.0
