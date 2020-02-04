@@ -136,3 +136,70 @@ Medimos el punto de operación del amplificador diferencial y la fuente de corri
 * V_eQ2 [mV]:	795.0
 * V_bQ3 [mV]:	245.7
 * V_eQ3 [mV]:	796.0
+
+# 04/02/2020
+
+## 17:42, 1ra medición
+
+Medimos después de soldar el vas sin conectarlo todavía, para ver que todo siga andando
+
+* V_R10 [mV]:	564.2			(J9 vs V+)
+* V_R8 	[mV]:	497.2			(J4 vs V+)
+* V_R7 	[mV]:	527.4		(entre J19 y J2)
+* V_R6 	[mV]:	527.1			(entre J19 y J20)
+* V_R2 	[mV]:	360.7			(J3 vs V-)
+* V_R1 	[mV]:	356.0			(J6 vs V-, entrada)
+* V_bQ2 [mV]:	274.0			(J15)
+* V_eQ2 [mV]:	883.0
+* V_bQ3 [mV]:	276.3
+* V_eQ3 [mV]:	883.0
+
+## 18:00, 2da medición
+
+Medimos con todo conectado (vas)
+
+* V_R10 [mV]:	32			(J9 vs V+)
+* V_R8 	[mV]:	58.9			(J4 vs V+)
+* V_R7 	[mV]:	93.9		(entre J19 y J2)
+* V_R6 	[mV]:	30.4			(entre J19 y J20)
+* V_R2 	[mV]:	21.8			(J3 vs V-)
+* V_R1 	[mV]:	20.3			(J6 vs V-, entrada)
+* V_bQ2 [mV]:	7670			(J15)
+* V_eQ2 [mV]:	8390
+* V_bQ3 [mV]:	7860
+* V_eQ3 [mV]:	8460
+* V_Vas [mv]:	7980
+
+## 18:26, 3ra medición
+
+Arreglamos la pista que se había cortado (la que iba entre la salida del vas y el diodo) y dimos vuelta los diodos
+
+* V_R10 [mV]:	32			(J9 vs V+)
+* V_R8 	[mV]:	58.9			(J4 vs V+)
+* V_R7 	[mV]:	93.9		(entre J19 y J2)
+* V_R6 	[mV]:	30.4			(entre J19 y J20)
+* V_R2 	[mV]:	21.8			(J3 vs V-)
+* V_R1 	[mV]:	20.3			(J6 vs V-, entrada)
+* V_bQ2 [mV]:	7670			(J15)
+* V_eQ2 [mV]:	8390
+* V_bQ3 [mV]:	7860
+* V_eQ3 [mV]:	8460
+* V_Vas [mv]:	7980
+
+
+## 19:09, 4ta medición
+
+No estaba conectado el jumper que conectaba la salida del diferencial con el buffer, lo soldamos. También soldamos una pata del transitor del mult de vbe.
+
+* Vcc	[V]:	10	 |	30
+* V_R10 [mV]:	560.2|580.0				(J9 vs V+)
+* V_R8 	[mV]:	502.9|567.0				(J4 vs V+)
+* V_R7 	[mV]:	534.4|602.0				(entre J19 y J2)
+* V_R6 	[mV]:	536.3|607.5				(entre J19 y J20)
+* V_R2 	[mV]:	367.1|413.2				(J3 vs V-)
+* V_R1 	[mV]:	364.9|411.3				(J6 vs V-, entrada)
+* V_bQ2 [mV]:	273.6|248.3				(J15)
+* V_eQ2 [mV]:	879.0|794.0
+* V_bQ3 [mV]:	268.4|237.7
+* V_eQ3 [mV]:	875.0|790.0
+* V_Vas [mv]:	016.0|019.0

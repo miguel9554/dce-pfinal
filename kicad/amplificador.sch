@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:amplificador-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -435,7 +436,6 @@ Wire Wire Line
 	5800 2900 6450 2900
 Wire Wire Line
 	6450 2900 6450 2950
-Connection ~ 6450 2900
 Wire Wire Line
 	6150 3750 5800 3750
 $Comp
@@ -556,9 +556,6 @@ Wire Wire Line
 Connection ~ 9250 5050
 Wire Wire Line
 	6450 4450 6450 4700
-Connection ~ 6450 4700
-Wire Wire Line
-	6450 4700 6450 4950
 Wire Wire Line
 	7200 4700 6450 4700
 $Comp
@@ -917,17 +914,6 @@ F 3 "" H 4200 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Reference_Voltage:LM385D-1.2 U2
-U 1 1 5D1B56D9
-P 6450 5100
-F 0 "U2" V 6496 5012 50  0000 R CNN
-F 1 "LM385D-1.2" V 6405 5012 50  0000 R CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6450 4900 50  0001 C CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF" H 6450 5100 50  0001 C CIN
-	1    6450 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x01 J8
 U 1 1 5D1BFE0F
 P 5050 800
@@ -1008,8 +994,6 @@ Connection ~ 5200 4000
 Wire Wire Line
 	5200 4000 5200 4100
 Connection ~ 9250 4000
-Wire Wire Line
-	6450 2850 6450 2900
 $Comp
 L Reference_Voltage:LM385D-1.2 U1
 U 1 1 5D1B6A9C
@@ -1019,7 +1003,7 @@ F 1 "LM385D-1.2" V 6405 2612 50  0000 R CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6450 2500 50  0001 C CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF" H 6450 2700 50  0001 C CIN
 	1    6450 2700
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Male J3
@@ -1174,8 +1158,6 @@ Wire Wire Line
 	9250 4350 9250 4300
 Wire Wire Line
 	5950 5400 6450 5400
-Wire Wire Line
-	6450 5250 6450 5400
 $Comp
 L Connector:Conn_01x01_Male J18
 U 1 1 5D27FE44
@@ -1187,7 +1169,6 @@ F 3 "~" H 6650 5250 50  0001 C CNN
 	1    6650 5250
 	-1   0    0    1   
 $EndComp
-Connection ~ 6450 5250
 $Comp
 L Device:Jumper_NO_Small JP3
 U 1 1 5D280930
@@ -1228,9 +1209,6 @@ Wire Wire Line
 	6100 2500 6450 2500
 Wire Wire Line
 	6450 2450 6450 2500
-Connection ~ 6450 2500
-Wire Wire Line
-	6450 2500 6450 2550
 Wire Wire Line
 	5900 2500 5550 2500
 $Comp
@@ -1511,4 +1489,29 @@ Wire Wire Line
 	5050 2250 5050 2050
 Wire Wire Line
 	5050 2250 6150 2250
+$Comp
+L Reference_Voltage:LM385D-1.2 U2
+U 1 1 5D1B56D9
+P 6450 5000
+F 0 "U2" V 6496 4912 50  0000 R CNN
+F 1 "LM385D-1.2" V 6405 4912 50  0000 R CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6450 4800 50  0001 C CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF" H 6450 5000 50  0001 C CIN
+	1    6450 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 5150 6450 5250
+Wire Wire Line
+	6450 5400 6450 5250
+Connection ~ 6450 5250
+Wire Wire Line
+	6450 4850 6450 4700
+Connection ~ 6450 4700
+Wire Wire Line
+	6450 2550 6450 2500
+Connection ~ 6450 2500
+Wire Wire Line
+	6450 2850 6450 2900
+Connection ~ 6450 2900
 $EndSCHEMATC
