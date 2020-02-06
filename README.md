@@ -145,7 +145,7 @@ Medimos después de soldar el vas sin conectarlo todavía, para ver que todo sig
 
 * V_R10 [mV]:	564.2			(J9 vs V+)
 * V_R8 	[mV]:	497.2			(J4 vs V+)
-* V_R7 	[mV]:	527.4		(entre J19 y J2)
+* V_R7 	[mV]:	527.4			(entre J19 y J2)
 * V_R6 	[mV]:	527.1			(entre J19 y J20)
 * V_R2 	[mV]:	360.7			(J3 vs V-)
 * V_R1 	[mV]:	356.0			(J6 vs V-, entrada)
@@ -203,3 +203,50 @@ No estaba conectado el jumper que conectaba la salida del diferencial con el buf
 * V_bQ3 [mV]:	268.4|237.7
 * V_eQ3 [mV]:	875.0|790.0
 * V_Vas [mv]:	016.0|019.0
+
+# 06/02/2020
+
+## 17:21, 1ra medición
+
+Alimentación de 27.6 V
+
+* V_R10 [mV]:	590.8			(J9 vs V+)
+* V_R8 	[mV]:	599.0			(J4 vs V+)
+* V_R7 	[mV]:	124.3			(entre J19 y J2)
+* V_R6 	[mV]:	1042.0			(entre J19 y J20)
+* V_R2 	[mV]:	446.0			(J3 vs V-)
+* V_R1 	[mV]:	524.0			(J6 vs V-, entrada)
+* V_bQ2 [mV]:	15023.0			(J15)
+* V_eQ2 [mV]:	24040.0
+* V_bQ3 [mV]:	22038.0
+* V_eQ3 [mV]:	23075.0
+
+## 18:23, 2da medición
+
+Medición con la realimentación conectada, no está funcionando
+
+* V_R10 [mV]:	603.5			(J9 vs V+)
+* V_R8 	[mV]:	600.0			(J4 vs V+)
+* V_R7 	[mV]:	126.2			(entre J19 y J2)
+* V_R6 	[mV]:	1430.0			(entre J19 y J20)
+* V_R2 	[mV]:	448.0			(J3 vs V-)
+* V_R1 	[mV]:	530.0			(J6 vs V-, entrada)
+* V_bQ2 [mV]:	15300.0			(J15)
+* V_eQ2 [mV]:	24640.0
+* V_bQ3 [mV]:	22440.0
+* V_eQ3 [mV]:	24000.0
+
+## 18:31, 3ra medición
+
+Medición solo del diferencial
+
+* V_R10 [mV]:	600.8			(J9 vs V+)
+* V_R8 	[mV]:	558.0			(J4 vs V+)
+* V_R7 	[mV]:	569.5			(entre J19 y J2)
+* V_R6 	[mV]:	617.0			(entre J19 y J20)
+* V_R2 	[mV]:	404.6			(J3 vs V-)
+* V_R1 	[mV]:	411.0			(J6 vs V-, entrada)
+* V_bQ2 [mV]:	332.0			(J15)
+* V_eQ2 [mV]:	898.7
+* V_bQ3 [mV]:	281.0
+* V_eQ3 [mV]:	846.0
