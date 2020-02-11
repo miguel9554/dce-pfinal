@@ -494,3 +494,27 @@ Probamos todos los transistores y parecen estar bien. Soldamos la pistas de la b
 
 Las fuentes daban 30 mili cada una
 Medimos el diferencial primero y estaba balanceado
+
+#   11/02/2020
+
+##  18:16, 1ra medición
+
+Medición sin realizar ningún cambio.
+
+* V_R10 [mV]:   603.4           (J9 vs V+)
+* V_R8  [mV]:   564.0           (J4 vs V+)
+* V_R7  [mV]:   576.7           (entre J19 y J2)
+* V_R6  [mV]:   581.8           (entre J19 y J20)
+* V_R2  [mV]:   395.5           (J3 vs V-)
+* V_R1  [mV]:   393.8           (J6 vs V-, entrada)
+* V_bQ2 [mV]:   359.7          (J15)
+* V_eQ2 [mV]:   938.0
+* V_bQ3 [mV]:   359.2
+* V_eQ3 [mV]:   932.0
+* V_oVAS[mV]:   075.4
+
+El problema era el potenciómetro del multiplicador de vbe que estaba flojo.
+
+##  Modificaciones
+* Sacamos el capacitor de 1uF entre -VCC y GND porque estaba cortada la pista de -VCC en ese nodo
+* Cambiamos el potenciómetro, pareciera seguir habiendo algún problema relacionado a su conexión.
