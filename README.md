@@ -516,5 +516,76 @@ Medición sin realizar ningún cambio.
 El problema era el potenciómetro del multiplicador de vbe que estaba flojo.
 
 ##  Modificaciones
-* Sacamos el capacitor de 1uF entre -VCC y GND porque estaba cortada la pista de -VCC en ese nodo
+* Sacamos el capacitor de 1uF entre -VCC y GND porque estaba cortada la pista de -VCC en ese nodo.
 * Cambiamos el potenciómetro, pareciera seguir habiendo algún problema relacionado a su conexión.
+
+# 13/02/2020
+
+Empezamos viendo si el pote está bien soldado, si hay la resistencia que tiene que haber entre las pistas. Lo resoldamos y parece dar bien
+
+##  16:55, 1ra medición
+
+Medición después de soldar bien el pote.
+
+* V_R10 [mV]:   605.7           (J9 vs V+)
+* V_R8  [mV]:   569.1           (J4 vs V+)
+* V_R7  [mV]:   580.5           (entre J19 y J2)
+* V_R6  [mV]:   585.9           (entre J19 y J20)
+* V_R2  [mV]:   397.3           (J3 vs V-)
+* V_R1  [mV]:   396.0           (J6 vs V-, entrada)
+* V_bQ2 [mV]:   367.4          (J15)
+* V_eQ2 [mV]:   946.0
+* V_bQ3 [mV]:   365.9
+* V_eQ3 [mV]:   941.0
+* V_oVAS[mV]:   57.0
+
+Da bien! Parece ser que el problema era el pote.
+
+Ahora vamos a medir la ganancia con fin=1k.
+Vpp entrada [mV]    Vpp salida [V]  Ganancia
+200     5.4     27
+300     8.48    28.26
+400     11.12   27.8
+500     13.8    27.6
+600     16.20   27
+800     21.2    26.5
+1000    26.40   26.4
+1200    31.8    26.5
+1500    39.20   26.13
+1530    40      26.14
+
+Ahora vamos a medir la ganancia con fin=10k (hay que recalcular la ganancia).
+Vpp entrada [mV]    Vpp salida [V]  Ganancia
+200     5.12    27
+300     8.48    28.26
+400     11.04   27.8
+500     13.44   27.6
+600     16.00   27
+800     21.2    26.5
+1000    26.40   26.4
+1200    31.8    26.5
+1500    40      26.13
+1530    40      26.14
+
+Medimos la salida con 1 Vpp a la entrada, y variando la frecuencia.
+f [Hz]  Vpp salida [V]
+20  26.8
+200 26.8
+2k  26.6
+20k 26.8
+50k 26.8
+200k    26
+
+Da joya la baja potencia, arrancamos a soldar la parte de potencia.
+
+Cosas que hay que comprar:
+* Disipadores
+* Pasta térmica
+* Diodos 1N4148
+* Capacitores de 1u y 50V
+* Resistencia de 50W
+
+Cosas para ver:
+* Ver porque que en el esquemático hay 1N4148 cuando debería haber LM385
+* Soldar todas las pistas de los componentes de potencia cuando 
+* Cambiar C7 que está quemado, y volver a poner C8
