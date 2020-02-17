@@ -589,3 +589,9 @@ Cosas para ver:
 * Ver porque que en el esquemático hay 1N4148 cuando debería haber LM385
 * Soldar todas las pistas de los componentes de potencia cuando 
 * Cambiar C7 que está quemado, y volver a poner C8
+
+# 17/02/2019
+
+La idea de hoy era soldar toda la etapa de potencia y montar los disipadores. El disipador de los transistores de potencia y el multiplicador de vbe no se pudo montar, asi que solo soldamos la etapa de potencia. Medimos continuidad y parece estar todo bien conectado. Solo falta soldar las pistas de arriba de los transistores que van al disipador. No lo hicimos para que tengan mas movilidad cuando pongamos el disipador. Mañana hay que comprar
+* Disipador ZD27-10, de 10 cm de largo
+* Tornillos y mica
