@@ -590,8 +590,60 @@ Cosas para ver:
 * Soldar todas las pistas de los componentes de potencia cuando 
 * Cambiar C7 que está quemado, y volver a poner C8
 
-# 17/02/2019
+# 17/02/2020
 
 La idea de hoy era soldar toda la etapa de potencia y montar los disipadores. El disipador de los transistores de potencia y el multiplicador de vbe no se pudo montar, asi que solo soldamos la etapa de potencia. Medimos continuidad y parece estar todo bien conectado. Solo falta soldar las pistas de arriba de los transistores que van al disipador. No lo hicimos para que tengan mas movilidad cuando pongamos el disipador. Mañana hay que comprar
 * Disipador ZD27-10, de 10 cm de largo
 * Tornillos y mica
+
+# 21/02/2020
+
+Ya está todo soldado y armado, vamos a medir la polarización para todo el circuito
+
+## 1ra medición, 18:26
+
+* V_R10 [mV]:   603
+* V_R8  [mV]:   572
+* V_R7  [mV]:   579.5
+* V_R6  [mV]:   581.7
+* V_R2  [mV]:
+* V_R1  [mV]:
+* V_bQ2 [mV]:
+* V_eQ2 [mV]:
+* V_bQ3 [mV]:
+* V_eQ3 [mV]:
+* V_oVAS[mV]:
+* V_bQ11[mV]:
+* V_bQ16[mV]:
+* V_bQ12[mV]:
+* V_bQ15[mV]:
+* V_R18 [mV]:
+* V_R19 [mV]:
+
+Tratabamos de medir y cuando mediamos algunos nodos (VoVas, VR7, VR6) la fuente empezaba a entregar corrientes erróneas. Vamos a medir con un osciloscopio enganchado en VoVas para ver si hay oscilaciones
+
+Encontramos una oscilación, chequeamos en la simulación y encontramos que con el capa de compensación de 100p, el circuito está inestable. Lo reemplazamos por uno de 470p que da estable. REEMPLAZAR EN EL LTSPICE EL CAPA DE 100P POR ESTE DE 470P
+
+Hablamos con Fede
+- Tratar de que haya aprox 100 mA en la rama de salida, ahora hay 500mA. Probamos llevando la resistencia del mult de vbe 1.5K, daba bien la THD y aprox 100 mA a la salida, ver si cambiamos el pote por uno de 500.
+- SIEMPRE limitar la corriente de las fuentes antes de medir. Para esto, llevar a cero la tensión y el límite de corriente, cortocircuitar la fuente e incrementar el límite de corriente hasta llegar a la limitación deseada.
+
+Cosas para cambiar en las simulaciones
+- Poner un capacitor de 470p
+- Ver la resistencia del mult de vbe, en 1.5k aparentemente da bien
+
+## 2da medición, 19:58
+
+Medimos después de reemmplazar el capa de 100p por uno de 470p
+
+* V_R10 [mV]:   610
+* V_R8  [mV]:   567
+* V_R7  [mV]:   577
+* V_R6  [mV]:   584
+* V_R2  [mV]:   397.4
+* V_R1  [mV]:   396.9
+* V_bQ2 [mV]:   370.2
+* V_eQ2 [mV]:   954
+* V_bQ3 [mV]:   369.2
+* V_eQ3 [mV]:   948
+* V_oVAS[mV]:   -1914
