@@ -647,3 +647,127 @@ Medimos después de reemmplazar el capa de 100p por uno de 470p
 * V_bQ3 [mV]:   369.2
 * V_eQ3 [mV]:   948
 * V_oVAS[mV]:   -1914
+
+# 28/02/20
+
+Vamos a medir la polarización de la etapa de potencia
+
+## 1ra medición, 19:54
+
+Medimos 
+
+* V_R10 [mV]: 599 
+* V_R8  [mV]: 568
+* V_R7  [mV]: 539
+* V_R6  [mV]: 583
+* V_R2  [mV]: 396
+* V_R1  [mV]: 394
+* V_bQ2 [mV]: 356
+* V_eQ2 [mV]: 930
+* V_bQ3 [mV]: 356
+* V_eQ3 [mV]: 926
+* V_oVAS[mV]: -1800
+* V_bQ11[mV]: 1060
+* V_bQ16[mV]: 984
+* V_R20 [mV]: 848
+* V_R18 [mV]: 0
+* V_R19 [mV]: 0
+* V_o   [mV]: 57
+
+## 2da medición, 20:25
+
+Soldamos el pin de alimentación de V+, estaba desconectado. Medimos y NO DABA, no medimos todos los nodos por paja
+
+* V_R10 [mV]: 
+* V_R8  [mV]: 
+* V_R7  [mV]: 
+* V_R6  [mV]: 583
+* V_R2  [mV]: 396
+* V_R1  [mV]: 394
+* V_bQ2 [mV]: 356
+* V_eQ2 [mV]: 930
+* V_bQ3 [mV]: 356
+* V_eQ3 [mV]: 926
+* V_oVAS[mV]: -1800
+* V_bQ11[mV]: 1060
+* V_bQ16[mV]: 984
+* V_R20 [mV]: 848
+* V_R18 [mV]: 0
+* V_R19 [mV]: 
+* V_o   [mV]: 56
+
+## 3ra medición, 20:50
+
+Soldamos bien el colector de Q17 que no estaba haciendo contacto con la pista. NO DIO
+
+* V_R10 [mV]: 
+* V_R8  [mV]: 
+* V_R7  [mV]: 
+* V_R6  [mV]: 
+* V_R2  [mV]: 
+* V_R1  [mV]: 
+* V_bQ2 [mV]: 
+* V_eQ2 [mV]: 
+* V_bQ3 [mV]: 
+* V_eQ3 [mV]: 
+* V_oVAS[mV]: 
+* V_bQ11[mV]: 
+* V_bQ16[mV]: 
+* V_R20 [mV]: 
+* V_R18 [mV]: 
+* V_R19 [mV]: 
+* V_o   [mV]: 
+
+## 4ta medición, 21:08
+
+Soldamos bien el emisor de Q18 que no estaba haciendo contacto con la resistencia R22.
+
+* V_R10 [mV]: 
+* V_R8  [mV]: 
+* V_R7  [mV]: 
+* V_R6  [mV]: 
+* V_R2  [mV]: 
+* V_R1  [mV]: 
+* V_bQ2 [mV]: 
+* V_eQ2 [mV]: 
+* V_bQ3 [mV]: 
+* V_eQ3 [mV]: 
+* V_oVAS[mV]: 
+* V_bQ11[mV]: 
+* V_bQ16[mV]: 
+* V_R20 [mV]: 
+* V_R18 [mV]: 
+* V_R19 [mV]: 
+* V_o   [mV]: 
+
+* V_R10 [mV]: 
+* V_R8  [mV]: 
+* V_R7  [mV]: 
+* V_R6  [mV]: 
+* V_R2  [mV]: 
+* V_R1  [mV]: 
+* V_bQ2 [mV]: 
+* V_eQ2 [mV]: 
+* V_bQ3 [mV]: 
+* V_eQ3 [mV]: 
+* V_oVAS[mV]: 
+* V_bQ11[mV]: 
+* V_bQ16[mV]: 
+* V_R20 [mV]: 
+* V_R18 [mV]: 
+* V_R19 [mV]: 
+* V_o   [mV]: 
+
+driver arriba
+23.96
+24.4
+
+driver abajo
+24.03
+24.4
+
+transistor exterior arriba
+9.99
+10.2
+
+Vimos que llevando el pote a 0, teníamos 0.05mV sobre las resistencias de emisor, y si lo tirabamos a 200, había 0V. Hay que bajar la resistencia.
