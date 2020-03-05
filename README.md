@@ -700,63 +700,9 @@ Soldamos el pin de alimentación de V+, estaba desconectado. Medimos y NO DABA, 
 
 Soldamos bien el colector de Q17 que no estaba haciendo contacto con la pista. NO DIO
 
-* V_R10 [mV]: 
-* V_R8  [mV]: 
-* V_R7  [mV]: 
-* V_R6  [mV]: 
-* V_R2  [mV]: 
-* V_R1  [mV]: 
-* V_bQ2 [mV]: 
-* V_eQ2 [mV]: 
-* V_bQ3 [mV]: 
-* V_eQ3 [mV]: 
-* V_oVAS[mV]: 
-* V_bQ11[mV]: 
-* V_bQ16[mV]: 
-* V_R20 [mV]: 
-* V_R18 [mV]: 
-* V_R19 [mV]: 
-* V_o   [mV]: 
-
 ## 4ta medición, 21:08
 
 Soldamos bien el emisor de Q18 que no estaba haciendo contacto con la resistencia R22.
-
-* V_R10 [mV]: 
-* V_R8  [mV]: 
-* V_R7  [mV]: 
-* V_R6  [mV]: 
-* V_R2  [mV]: 
-* V_R1  [mV]: 
-* V_bQ2 [mV]: 
-* V_eQ2 [mV]: 
-* V_bQ3 [mV]: 
-* V_eQ3 [mV]: 
-* V_oVAS[mV]: 
-* V_bQ11[mV]: 
-* V_bQ16[mV]: 
-* V_R20 [mV]: 
-* V_R18 [mV]: 
-* V_R19 [mV]: 
-* V_o   [mV]: 
-
-* V_R10 [mV]: 
-* V_R8  [mV]: 
-* V_R7  [mV]: 
-* V_R6  [mV]: 
-* V_R2  [mV]: 
-* V_R1  [mV]: 
-* V_bQ2 [mV]: 
-* V_eQ2 [mV]: 
-* V_bQ3 [mV]: 
-* V_eQ3 [mV]: 
-* V_oVAS[mV]: 
-* V_bQ11[mV]: 
-* V_bQ16[mV]: 
-* V_R20 [mV]: 
-* V_R18 [mV]: 
-* V_R19 [mV]: 
-* V_o   [mV]: 
 
 driver arriba
 23.96
@@ -771,3 +717,132 @@ transistor exterior arriba
 10.2
 
 Vimos que llevando el pote a 0, teníamos 0.05mV sobre las resistencias de emisor, y si lo tirabamos a 200, había 0V. Hay que bajar la resistencia.
+
+# 02/03/202
+
+Modificamos la resistencia del multiplicador de vbe a 1.2 k más el preset. Procedemos a medir la polarización.
+
+# Primera medición, 14:55
+
+Sin conectar las fuentes internas
+
+* V_R10 [mV]: 612             (J9 vs V+)
+* V_R8  [mV]: 572             (J4 vs V+)
+* V_R7  [mV]: 587             (entre J19 y J2)
+* V_R6  [mV]: 589             (entre J19 y J20)
+* V_R2  [mV]: 403             (J3 vs V-)
+* V_R1  [mV]: 402             (J6 vs V-, entrada)
+* V_bQ2 [mV]: 361            (J15)
+* V_eQ2 [mV]: 938  
+* V_bQ3 [mV]: 360  
+* V_eQ3 [mV]: 934  
+* V_oVAS[mV]: -1980
+* V_bQ11[mV]: 
+* V_bQ16[mV]: 
+* V_R20 [mV]: 
+* V_R18 [mV]: 
+* V_R19 [mV]: 
+* V_o   [mV]: 57
+
+Corriente de las fuentes entre 40 y 50 mA.
+
+# Segunda medición, 15:30
+
+Conectadas las fuentes internas
+
+* V_R10 [mV]: 601             (J9 vs V+)
+* V_R8  [mV]: 576             (J4 vs V+)
+* V_R7  [mV]: 584             (entre J19 y J2)
+* V_R6  [mV]: 588             (entre J19 y J5)
+* V_R2  [mV]: 400             (J3 vs V-)
+* V_R1  [mV]: 398             (J6 vs V-, entrada)
+* V_bQ2 [mV]: 354            (J15)
+* V_eQ2 [mV]: 926  
+* V_bQ3 [mV]: 352  
+* V_eQ3 [mV]: 923  
+* V_oVAS[mV]: -2000
+* V_bQ11[mV]: 1192
+* V_bQ16[mV]: 1295
+* V_R20 [mV]: 1278
+* V_R18 [mV]: 5				(50 mA)
+* V_R19 [mV]: 5
+* V_o   [mV]: 55
+
+# Tercera medición, 15:56
+
+Cambiamos la resistencia del preset de 40 ohm a 120 ohm para bajar la corrien te en la rama de salida.
+
+* V_R10 [mV]: 605
+* V_R8  [mV]: 574
+* V_R7  [mV]: 585
+* V_R6  [mV]: 590
+* V_R2  [mV]: 401
+* V_R1  [mV]: 399
+* V_bQ2 [mV]: 356
+* V_eQ2 [mV]: 931 
+* V_bQ3 [mV]: 356  
+* V_eQ3 [mV]: 926
+* V_oVAS[mV]: -1970
+* V_bQ11[mV]: 1249
+* V_bQ16[mV]: 1140
+* V_R20 [mV]: 1278
+* V_R18 [mV]: 0.92				(9.2 mA)
+* V_R19 [mV]: 0.92
+* V_o   [mV]: 52
+
+# Cuarta medición, 17:13
+
+Se produjo un corto al medir señal.
+
+* V_R10 [mV]: 608
+* V_R8  [mV]: 573
+* V_R7  [mV]: 585
+* V_R6  [mV]: 590
+* V_R2  [mV]: 401
+* V_R1  [mV]: 399
+* V_bQ2 [mV]: 362
+* V_eQ2 [mV]: 946 
+* V_bQ3 [mV]: 362  
+* V_eQ3 [mV]: 940
+* V_oVAS[mV]: -1950
+* V_bQ11[mV]: 1290
+* V_bQ16[mV]: 1129
+* V_R20 [mV]: 1190
+* V_R18 [mV]: 0.27				(2.5 mA)
+* V_R19 [mV]: 0.25
+* V_o   [mV]: 54
+
+Bajó la corriente de salida. Probablemente se corrió el potenciómetro.
+Se solucionó acomodando algunos contactos de las fuentes de alimentación.
+
+El circuito presenta una senoidal de 7.6 MHz y 1.2 Vpp a la salida en ausencia
+de señal de entrada. Al agregarse la señal de entrada se suma a la salida con poca amplificación.
+Probar cambiar capacitor de compensación.
+
+# 03/03/202
+
+Soldamos dos capacitores de 220 pF entre base y colector de los transistores externos del driver.
+
+# Primera medición, 16:23
+
+* V_R10 [mV]: 604
+* V_R8  [mV]: 570
+* V_R7  [mV]: 581
+* V_R6  [mV]: 587
+* V_R2  [mV]: 399
+* V_R1  [mV]: 397
+* V_bQ2 [mV]: 355
+* V_eQ2 [mV]: 932  
+* V_bQ3 [mV]: 353 
+* V_eQ3 [mV]: 928  
+* V_oVAS[mV]: -1980
+* V_bQ11[mV]: 1249
+* V_bQ16[mV]: 1146
+* V_R20 [mV]: 1190
+* V_R18 [mV]: 0.90		(9 mA)
+* V_R19 [mV]: 0.93
+* V_o   [mV]: 48
+
+La ganancia está muy afectada para casi todas las frecuencias, ya en la salida del VAS.
+La mayor ganancia encontrada es 3, para 1 MHz.
+La cuadrada muestra que no està sobrecompensado.
