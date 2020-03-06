@@ -846,3 +846,49 @@ Soldamos dos capacitores de 220 pF entre base y colector de los transistores ext
 La ganancia está muy afectada para casi todas las frecuencias, ya en la salida del VAS.
 La mayor ganancia encontrada es 3, para 1 MHz.
 La cuadrada muestra que no està sobrecompensado.
+
+
+# 05/03/2020
+
+Medimos primero sin cambiar nada
+
+* V_R10 [mV]: 601
+* V_R8  [mV]: 574
+* V_R7  [mV]: 584
+* V_R6  [mV]: 587
+* V_R2  [mV]: 400
+* V_R1  [mV]: 399
+* V_bQ2 [mV]: 350
+* V_eQ2 [mV]: 924  
+* V_bQ3 [mV]: 350 
+* V_eQ3 [mV]: 919  
+* V_oVAS[mV]: -1936
+* V_bQ11[mV]: 1277
+* V_bQ16[mV]: 1104
+* V_R20 [mV]: 1177
+* V_R18 [mV]: 0.80      (8 mA)
+* V_R19 [mV]: 0.90
+* V_o   [mV]: 48
+
+Medimos para verificar que esté igual que al inicio
+
+* V_R10 [mV]: 600
+* V_R8  [mV]: 571
+* V_R7  [mV]: 582
+* V_R6  [mV]: 587
+* V_R2  [mV]: 398
+* V_R1  [mV]: 397
+* V_bQ2 [mV]: 345
+* V_eQ2 [mV]: 919  
+* V_bQ3 [mV]: 346 
+* V_eQ3 [mV]: 913  
+* V_oVAS[mV]: -1968
+* V_bQ11[mV]: 1241
+* V_bQ16[mV]: 1137
+* V_R20 [mV]: 1181
+* V_R18 [mV]: 1.80      (18 mA)
+* V_R19 [mV]: 1.70
+* V_o   [mV]: 45
+
+Si se toca con metal Vin, Vout, R18 o R19, VbQ2: aparece la oscilación de 7 Mhz 2 Vpp a la salida.
+Si se toca VbQ3: la tensión aumenta indefinidamente en amplitud (a veces).
