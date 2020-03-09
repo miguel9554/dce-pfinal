@@ -892,3 +892,34 @@ Medimos para verificar que esté igual que al inicio
 
 Si se toca con metal Vin, Vout, R18 o R19, VbQ2: aparece la oscilación de 7 Mhz 2 Vpp a la salida.
 Si se toca VbQ3: la tensión aumenta indefinidamente en amplitud (a veces).
+
+# 06/03/2020
+
+Medimos después de agergar un capa de 220 pF en paralelo con el que ya pusimos en Q12
+
+* V_R10 [mV]: 602
+* V_R8  [mV]: 573
+* V_R7  [mV]: 584
+* V_R6  [mV]: 587
+* V_R2  [mV]: 399
+* V_R1  [mV]: 397
+* V_bQ2 [mV]: 366
+* V_eQ2 [mV]: 957  
+* V_bQ3 [mV]: 362 
+* V_eQ3 [mV]: 953  
+* V_oVAS[mV]: -1987
+* V_bQ11[mV]: 1243
+* V_bQ16[mV]: -1151
+* V_R20 [mV]: 1185
+* V_R18 [mV]: 0.8      (18 mA)
+* V_R19 [mV]: 0.8
+* V_o   [mV]: 43
+
+Arreglamos el capa de 1000 uF que estaba mal soldado. El problema era que como no hacía contacto, teníamos realimentación unitaria.
+
+Le soldamos a cada driver un capacitor extra en paralelo. Quedó cada uno con dos capas de 220 pF.
+
+La frecuencia de corte inferior estaba en aproximadamente 25 Hz.
+
+La ganancia estaba dando aprox 20. Para frecuencias mas altas se va a 25
+
