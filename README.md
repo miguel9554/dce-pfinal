@@ -921,5 +921,61 @@ Le soldamos a cada driver un capacitor extra en paralelo. Quedó cada uno con do
 
 La frecuencia de corte inferior estaba en aproximadamente 25 Hz.
 
-La ganancia estaba dando aprox 20. Para frecuencias mas altas se va a 25
+La ganancia estaba dando aprox 20. Para frecuencias mas altas se va a 25.
 
+# 09/03/2020
+
+Capacitor 440 pF en el driver clase C del semiciclo negativo, desconectado en el positivo.
+Soldamos el segundo capacitor de filtrado de fuente (para -VCC) de 1000 uF.
+Sin carga.
+
+## Resultados 17:34
+* Ruido de 50 Hz 280 mVpp
+* Con las fuentes apagadas, pero conectadas, el mismo ruido prevalece con amplitud 50 mVpp
+
+## Medición ancho de banda (entrada 100 mVpp) 18:00
+* Frec      Amplitud    G
+* 1 kHz:    2.70 Vpp    27
+* 10 kHz:   2.64 Vpp    26.4
+* 20 kHz:   2.68 Vpp    26.8
+* 50 kHz:   2.46 Vpp    24.6
+* 100 kHz:  2.1 Vpp     21
+* 150 kHz:  1.82 Vpp    18.2
+* 200 kHz:  1.58 Vpp    15.8
+
+## Medición ancho de banda (entrada 1 Vpp) 18:05
+* Frec      Amplitud    G
+* 1 kHz:    26.4 Vpp    26.4
+* 10 kHz:   27.0 Vpp    27.0    (sube la corriente entragada por la fuente a 80 mA)
+* 100 kHz:  21.2 Vpp    21.2
+
+Soldamos el capacitor de 440 pF en el driver clase C del semiciclo positivo.
+
+* La amplificación sigue igual. El ruido en el semiciclo positivo parece venir de la conmutación
+porque aparece al superar los 10 V.
+* A partir de 1.2 Vpp de entrada satura el semicilo negativo (imagen enviada por mail).
+
+## Medición con carga (entrada 1 kHz) 18:42
+* Vin           Vout        G
+* 46 mVpp:      632 mVpp    13.7
+* 54 mVpp:      920 mVpp    17.0
+* 100 mVpp:     A partir de esta tensión aparece un ruido en el cruce por cer
+en la entrada y se amplifica a la salida.
+
+Había un problema de masas, conectamos bien la masa del osciloscopio y empezamos a medir bien.
+
+## Medición con carga (entrada 1 kHz) 19:18
+* Vin           Vout        G
+* 100 mVpp     2.54 Vpp    25.4
+* 120 mVpp     3.24        27
+* 140 mVpp     3.24        23.1
+* 160 mVpp     4           25
+* 200 mVpp     5.8         28
+
+A partir de 140 mV, la señal empieza a moverse en el osciloscopio, y no es por ruido de linea. Posiblemente sea por el trigger, probar con el trigger externo conectado a la otra salida del generador de señales.
+
+Recapitulando lo de hoy,
+
+* Cuando la señal llega tiene 10 Vpico (el umbral de conmutación), aparece mucho ruido en el maximo del ciclo positivo
+* Cuando empieza a crecer mas la señal, el ruido del ciclo positivo se achica, pero aparece una especie de rectificacion en el ciclo negativo
+* Probamos con carga, y la corriente de las fuentes interiores crecía mucho más que la de las exteriores
