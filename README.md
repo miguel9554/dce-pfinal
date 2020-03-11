@@ -911,7 +911,7 @@ Medimos después de agergar un capa de 220 pF en paralelo con el que ya pusimos 
 * V_bQ11[mV]: 1243
 * V_bQ16[mV]: -1151
 * V_R20 [mV]: 1185
-* V_R18 [mV]: 0.8      (18 mA)
+* V_R18 [mV]: 0.8      (8 mA)
 * V_R19 [mV]: 0.8
 * V_o   [mV]: 43
 
@@ -978,4 +978,50 @@ Recapitulando lo de hoy,
 
 * Cuando la señal llega tiene 10 Vpico (el umbral de conmutación), aparece mucho ruido en el maximo del ciclo positivo
 * Cuando empieza a crecer mas la señal, el ruido del ciclo positivo se achica, pero aparece una especie de rectificacion en el ciclo negativo
-* Probamos con carga, y la corriente de las fuentes interiores crecía mucho más que la de las exteriores
+* Probamos con carga, y la corriente de las fuentes interiores crecía mucho más que la de las exteriores.
+
+
+# 10/03/2020
+
+Encontramos errores en la continua y volvimos a medir.
+
+* V_R10 [mV]: 79
+* V_R8  [mV]: 79
+* V_R7  [mV]: 198
+* V_R6  [mV]: 0
+* V_R2  [mV]: 0
+* V_R1  [mV]: 0
+* V_bQ2 [mV]: -23000
+* V_eQ2 [mV]: -24500
+* V_bQ3 [mV]: -23830
+* V_eQ3 [mV]: -24700
+* V_oVAS[mV]: -24000
+* V_bQ11[mV]: 
+* V_bQ16[mV]: 
+* V_R20 [mV]: 
+* V_R18 [mV]: 
+* V_R19 [mV]: 
+* V_o   [mV]: 
+
+Solo diferencial
+
+* V_R10 [mV]: 600
+* V_R8  [mV]: 59
+* V_R7  [mV]: 199
+* V_R6  [mV]: 0
+* V_R2  [mV]: 0
+* V_R1  [mV]: 0
+* V_bQ2 [mV]: -24000
+* V_bQ3 [mV]: -24000
+
+LLegamos y medimos la ganancia. 
+
+* V_R8  [mV]: 108
+* V_R7  [mV]: 199.6
+* V_R6  [mV]: 1
+* V_R15 [mV]: 23850
+* V_R4  [mV]: 1.7
+* V_R2  [mV]: 0.7
+* V_R1  [mV]: 0.8
+
+
