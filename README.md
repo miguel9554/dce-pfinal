@@ -1025,3 +1025,22 @@ LLegamos y medimos la ganancia.
 * V_R1  [mV]: 0.8
 
 
+# 12/03/2020
+
+Unimos los planos de tierra con cables porque sospechamos que el error está en las conexiones de tierra.
+
+Encontramos que cuando prendemos con la carga conectada solo con las fuentes exteriores, hay un transitorio de aproximadamente 5 segundos en el que la fuente positiva corta por corriente. Si es con las fuentes interiores, dura menos.
+
+## Medición de señal sin carga (f = 1 kHz) 19:34
+
+* Vin [mV]   Vout [V]
+* 112        2.66
+* 208        5.28
+* 300        7.88
+* 530        13.8
+* 800        21.4
+* 1020       26.8
+* 1260       32.4
+* 1460       38.0
+* 1600       42.8
+* 1700       45.2
