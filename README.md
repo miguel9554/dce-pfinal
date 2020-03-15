@@ -1044,3 +1044,63 @@ Encontramos que cuando prendemos con la carga conectada solo con las fuentes ext
 * 1460       38.0
 * 1600       42.8
 * 1700       45.2
+
+# 13/03/2020
+
+* Reemplazamos el capa de filtrado de la fuente (entre -Vcc y gnd) de 100 uF por otro de 1 uF y sigue habiendo un transitorio de aprox 3 segs. La polarización da bien.
+
+* Vamos a mandar señal a ver si sigue amplificando bien como ayer. Dio OK
+
+* Ahora, con las fuentes exteriores en 30 V (máxima excursión 60 V), vamos a ver hasta que amplitud de salida podemos trabajar sin distorsión (sin carga).
+
+* Llegamos hasta una entrada de 2,16 Vpp con una salida de 56,8 Vpp. A partir de esto, empieza a haber distorsión.
+
+* Tabla de tensiones y potencias
+
+* Vinpp [V] Vopp [V]    Prms [W]
+* 0,2       5           0,4
+* 0,32      8           1
+* 0,72      17,88       5
+* 1         25          10
+* 1,24      31          15
+* 2         50.59       40
+* 2,26      56.57       50
+
+Mediciones
+Vinpp [mV] Vo [V]
+208 5,16
+308 7,68
+332 8,32
+400 10,2
+524 13,3
+624 16,2
+720 18,2
+
+Llegamos hasta estos últimos valores, después la señal de salida empezaba a distorsionarse. Recortaba en el cilco positivo en 9,2 V, y en el negativo podía seguir creciendo pero deformada.
+
+ERROR:
+
+Encontramos que el diodo D3 (nomenclatura kicad) estaba conectado al emisor de Q8 en lugar del colector. Lo corregimos cortando la pista y uniendo con un cable. El kicad quedó actualizado.
+
+Ya lo arreglamos, medimos
+
+Mediciones
+Vinpp [mV] Vo [V]
+216 5,20
+312 7,76
+528 13,1
+
+Estaba recortando en 6 V, desconectamos y reconectarmos la fuente y anduvo
+
+Vinpp [mV] Vo
+528 13,4
+624 16,2
+720 18,2
+
+En 650 empieza a distorsionar el pico negativo empieza a distorsionarse. A partir de 750, Vcc+ deja de entregar y corriente y el ciclo positivo recorta en 9,2
+
+Tratamos de poner 15 V en las fuentes interiores, pero las corrientes divergen, teníamos que apagarlo en alrededor de 170 mA.
+
+Con 12 V no divergia, empezamos a subir las fuentes y hasta 14 V parecía andar bien.
+
+Los zeners están al revés en el Douglas-Self, y en el Kicad estaban como en el Douglas Self y los dimos vuelta. Ver como van

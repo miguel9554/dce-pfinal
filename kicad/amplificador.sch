@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:amplificador-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -371,8 +371,6 @@ Wire Wire Line
 	6450 1650 6450 1750
 Connection ~ 6450 1850
 Wire Wire Line
-	6450 1850 6450 2000
-Wire Wire Line
 	3450 6350 3450 7050
 Wire Wire Line
 	5350 6350 5350 7050
@@ -471,9 +469,6 @@ F 3 "~" H 6950 3700 50  0001 C CNN
 	1    6950 3700
 	-1   0    0    1   
 $EndComp
-Connection ~ 6450 2000
-Wire Wire Line
-	6450 2000 6450 2050
 Wire Wire Line
 	7200 3300 6950 3300
 $Comp
@@ -678,8 +673,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7400 
 $EndComp
 Wire Wire Line
 	6450 5400 7250 5400
-Wire Wire Line
-	6450 2000 7050 2000
 $Comp
 L Transistor_BJT:MPSA42 Q10
 U 1 1 5D15142C
@@ -1514,4 +1507,10 @@ Connection ~ 6450 2500
 Wire Wire Line
 	6450 2850 6450 2900
 Connection ~ 6450 2900
+Wire Wire Line
+	6450 1850 6450 2050
+Wire Wire Line
+	7050 2000 7050 2500
+Wire Wire Line
+	7050 2500 6450 2500
 $EndSCHEMATC
