@@ -507,14 +507,7 @@ $EndComp
 Wire Wire Line
 	7550 5400 7650 5400
 Wire Wire Line
-	7950 5550 7950 5500
-Wire Wire Line
 	8950 5500 7950 5500
-Connection ~ 7950 5500
-Wire Wire Line
-	7950 5500 7950 5450
-Wire Wire Line
-	9250 5300 9250 5050
 Wire Wire Line
 	7950 5950 7950 6250
 Wire Wire Line
@@ -525,7 +518,6 @@ Wire Wire Line
 	6850 7050 6450 7050
 Wire Wire Line
 	6850 6250 6850 7050
-Connection ~ 7950 6250
 Connection ~ 6450 7050
 Connection ~ 8450 6250
 Wire Wire Line
@@ -548,11 +540,6 @@ Wire Wire Line
 	8450 4900 8450 6250
 Wire Wire Line
 	7950 5050 9250 5050
-Connection ~ 9250 5050
-Wire Wire Line
-	6450 4450 6450 4700
-Wire Wire Line
-	7200 4700 6450 4700
 $Comp
 L Device:R R25
 U 1 1 5D1167CD
@@ -587,8 +574,6 @@ Wire Wire Line
 	8450 4200 8450 4350
 Connection ~ 9250 4800
 Wire Wire Line
-	9250 4800 9250 5050
-Wire Wire Line
 	9250 3300 9250 2800
 Wire Wire Line
 	9600 2750 9250 2750
@@ -596,11 +581,7 @@ Connection ~ 9250 2750
 Wire Wire Line
 	9250 2750 9250 2500
 Wire Wire Line
-	7350 2000 7650 2000
-Wire Wire Line
 	7950 2650 7950 2800
-Wire Wire Line
-	7950 2800 9250 2800
 Wire Wire Line
 	9250 2800 9250 2750
 Connection ~ 9250 2800
@@ -612,13 +593,8 @@ Wire Wire Line
 Wire Wire Line
 	9250 2100 9250 1250
 Wire Wire Line
-	8450 1250 9250 1250
-Connection ~ 8450 1250
-Wire Wire Line
 	7950 1800 7950 1250
 Connection ~ 7950 1250
-Wire Wire Line
-	7950 1250 8450 1250
 Wire Wire Line
 	8950 2300 7950 2300
 Wire Wire Line
@@ -658,7 +634,7 @@ F 1 "1N4148" H 7200 2125 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 1825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7200 2000 50  0001 C CNN
 	1    7200 2000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D4
@@ -1108,8 +1084,6 @@ F 3 "~" H 7900 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 7900 4700
-Wire Wire Line
-	7900 4700 8150 4700
 $Comp
 L Connector:Conn_01x01_Male J13
 U 1 1 5D20447A
@@ -1499,9 +1473,6 @@ Wire Wire Line
 	6450 5400 6450 5250
 Connection ~ 6450 5250
 Wire Wire Line
-	6450 4850 6450 4700
-Connection ~ 6450 4700
-Wire Wire Line
 	6450 2550 6450 2500
 Connection ~ 6450 2500
 Wire Wire Line
@@ -1510,7 +1481,36 @@ Connection ~ 6450 2900
 Wire Wire Line
 	6450 1850 6450 2050
 Wire Wire Line
-	7050 2000 7050 2500
-Wire Wire Line
 	7050 2500 6450 2500
+Wire Wire Line
+	7350 2000 7650 2000
+Wire Wire Line
+	7050 2000 7050 2500
+Connection ~ 8450 1250
+Wire Wire Line
+	7950 1250 8450 1250
+Wire Wire Line
+	8450 1250 9250 1250
+Connection ~ 9250 5050
+Connection ~ 7950 6250
+Wire Wire Line
+	9250 4800 9250 5050
+Wire Wire Line
+	9250 5300 9250 5050
+Connection ~ 7950 5500
+Wire Wire Line
+	7950 5500 7950 5450
+Wire Wire Line
+	7950 5550 7950 5500
+Connection ~ 6450 4700
+Wire Wire Line
+	7200 4700 6450 4700
+Wire Wire Line
+	7950 2800 9250 2800
+Wire Wire Line
+	6450 4850 6450 4700
+Wire Wire Line
+	6450 4450 6450 4700
+Wire Wire Line
+	7900 4700 8150 4700
 $EndSCHEMATC

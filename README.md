@@ -1053,7 +1053,7 @@ Encontramos que cuando prendemos con la carga conectada solo con las fuentes ext
 
 * Ahora, con las fuentes exteriores en 30 V (máxima excursión 60 V), vamos a ver hasta que amplitud de salida podemos trabajar sin distorsión (sin carga).
 
-* Llegamos hasta una entrada de 2,16 Vpp con una salida de 56,8 Vpp. A partir de esto, empieza a haber distorsión.
+* Llegamos hasta una entrada de 2,16 Vpp con una salida de 50,8 Vpp. A partir de esto, empieza a haber distorsión.
 
 * Tabla de tensiones y potencias
 
@@ -1104,3 +1104,10 @@ Tratamos de poner 15 V en las fuentes interiores, pero las corrientes divergen, 
 Con 12 V no divergia, empezamos a subir las fuentes y hasta 14 V parecía andar bien.
 
 Los zeners están al revés en el Douglas-Self, y en el Kicad estaban como en el Douglas Self y los dimos vuelta. Ver como van
+
+# 16/03/2020
+
+Hoy llegamos y tratamos de llegar a la máxima excursión de la vez pasada sin carga. Nos encontramos que a partir de aproximadamente 16 Vpp a la salida la corriente que entregaban las fuentes interiores subia demasiado, hasta 300 mA.
+Empezamos a revisar y encontramos que el diodo D4 (de LTSpice) estaba al revés, lo dimos vuelta y se arreglo. Amplificamos sin carga, y llegamos a una máxima excursión de 50 Vpp, igual que la vez pasada.
+Después de esto, amplificamos con carga y la parte positiva conmutaba sin problemas. La parte negativa conmuta un poco más lento, y parece tener más distorsión. Hay que medir las caidas de tensión en los caminos de Vo y los emisores de los transistores clase C hasta las  bases de los drivers de los clases C, y verificar que haya simetría. Probablemente este conmutando más tarde la etapa negativa por algo que está desbalanceado.
+Llegamos a amplificar hasta 35 Vpp a la salida.
