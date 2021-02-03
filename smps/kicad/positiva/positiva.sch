@@ -358,4 +358,12 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 5450 3350 50  0001 C CNN
 	1    5450 3350
 	1    0    0    -1  
 $EndComp
+Text Label 6650 3750 0    50   ~ 0
+Vfb
+Text Label 6050 3450 0    50   ~ 0
+VoutSW
+Text Label 7700 3450 0    50   ~ 0
+VoutDC
+Text Label 4400 3250 0    50   ~ 0
+Vin
 $EndSCHEMATC
