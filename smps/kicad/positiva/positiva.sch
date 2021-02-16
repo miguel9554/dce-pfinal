@@ -19,7 +19,7 @@ U 1 1 5F9A3462
 P 3900 3750
 F 0 "C1" H 4018 3796 50  0000 L CNN
 F 1 "100u" H 4018 3705 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" H 3938 3600 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3938 3600 50  0001 C CNN
 F 3 "~" H 3900 3750 50  0001 C CNN
 	1    3900 3750
 	1    0    0    -1  
@@ -29,8 +29,8 @@ L Device:CP C2
 U 1 1 5F9A41CA
 P 4400 3750
 F 0 "C2" H 4518 3796 50  0000 L CNN
-F 1 "100u" H 4518 3705 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" H 4438 3600 50  0001 C CNN
+F 1 "0.22u" H 4518 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4438 3600 50  0001 C CNN
 F 3 "~" H 4400 3750 50  0001 C CNN
 	1    4400 3750
 	1    0    0    -1  
@@ -84,22 +84,11 @@ L Device:R_POT RV1
 U 1 1 5F9A9436
 P 7250 3750
 F 0 "RV1" H 7180 3704 50  0000 R CNN
-F 1 "50k" H 7180 3795 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Horizontal" H 7250 3750 50  0001 C CNN
+F 1 "100k" H 7180 3795 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 7250 3750 50  0001 C CNN
 F 3 "~" H 7250 3750 50  0001 C CNN
 	1    7250 3750
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5F9AB229
-P 7250 4300
-F 0 "R1" H 7320 4346 50  0000 L CNN
-F 1 "1.2k" H 7320 4255 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7180 4300 50  0001 C CNN
-F 3 "~" H 7250 4300 50  0001 C CNN
-	1    7250 4300
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR07
@@ -257,10 +246,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 4250 6050 4550
 Wire Wire Line
-	7250 4550 7250 4450
-Wire Wire Line
-	7250 4150 7250 3900
-Wire Wire Line
 	5950 3250 6400 3250
 Wire Wire Line
 	6400 3250 6400 3750
@@ -366,4 +351,8 @@ Text Label 7700 3450 0    50   ~ 0
 VoutDC
 Text Label 4400 3250 0    50   ~ 0
 Vin
+Text Notes 6850 3150 0    79   ~ 0
+Vo = 1,23 * R1/(R1+R2)
+Wire Wire Line
+	7250 3900 7250 4550
 $EndSCHEMATC
