@@ -1,11 +1,15 @@
+# LTspice
 *.raw
 *.fft
 *.plt
 *.log
 *.net
-smps/.ipynb_checkpoints
+
+*.ipynb_checkpoints
 tags
 
+simulaciones/informe/*.png
+simulaciones/informe/*.txt
 
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
